@@ -1,0 +1,2457 @@
+{
+  "bsdm": {
+    "sign": {
+      "properties": {
+        "id": "66a78197-a0fe-4878-ac2a-75d196e45aac",
+        "version": "1.2.6",
+        "name": "GV NYC Hero Slides",
+        "videoMode": "3840x2160x60p",
+        "model": "XT1144",
+        "monitorOrientation": "Landscape",
+        "monitorOverscan": "NoOverscan",
+        "videoConnector": "HDMI",
+        "deviceWebPageDisplay": "Standard",
+        "backgroundScreenColor": {
+          "a": 255,
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "forceResolution": false,
+        "tenBitColorEnabled": false,
+        "dolbyVisionEnabled": false,
+        "fullResGraphicsEnabled": false,
+        "audioConfiguration": "MixedAudioPCMOnly",
+        "audioAutoLevel": false,
+        "htmlEnableJavascriptConsole": false,
+        "alphabetizeVariableNames": false,
+        "autoCreateMediaCounterVariables": false,
+        "resetVariablesOnPresentationStart": false,
+        "networkedVariablesUpdateInterval": 300,
+        "delayScheduleChangeUntilMediaEndEvent": false,
+        "language": "English",
+        "languageKey": "eng",
+        "flipCoordinates": false,
+        "inactivityTimeout": false,
+        "inactivityTime": 30,
+        "touchCursorDisplayMode": "Auto",
+        "udpDestinationAddressType": "IPAddress",
+        "udpDestinationAddress": "255.255.255.255",
+        "udpDestinationPort": 5000,
+        "udpReceiverPort": 5000,
+        "enableEnhancedSynchronization": null,
+        "disableSettingsHandler": false,
+        "isMosaic": false,
+        "graphicsZOrder": "Back"
+      },
+      "serialPortConfigurations": [
+        {
+          "port": "0",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "1",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "2",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "3",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "4",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "5",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "6",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "7",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        }
+      ],
+      "gpio": [
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input"
+      ],
+      "buttonPanels": {
+        "bp900a": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900b": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900c": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900d": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200a": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200b": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200c": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200d": {
+          "configureAutomatically": true,
+          "configuration": 0
+        }
+      },
+      "irRemote": {
+        "irInConfiguration": {
+          "source": "Ir-in"
+        },
+        "irOutConfiguration": {
+          "destination": "Iguana"
+        },
+        "irRemoteControl": {
+          "id": "RC-1002",
+          "encoding": "NEC",
+          "manufacturerCode": 28560,
+          "buttons": {
+            "0": {
+              "buttonCode": 0,
+              "buttonDescription": "Option"
+            },
+            "1": {
+              "buttonCode": 1,
+              "buttonDescription": "1"
+            },
+            "2": {
+              "buttonCode": 2,
+              "buttonDescription": "2"
+            },
+            "3": {
+              "buttonCode": 3,
+              "buttonDescription": "3"
+            },
+            "4": {
+              "buttonCode": 4,
+              "buttonDescription": "4"
+            },
+            "5": {
+              "buttonCode": 5,
+              "buttonDescription": "5"
+            },
+            "6": {
+              "buttonCode": 6,
+              "buttonDescription": "6"
+            },
+            "7": {
+              "buttonCode": 7,
+              "buttonDescription": "7"
+            },
+            "8": {
+              "buttonCode": 8,
+              "buttonDescription": "8"
+            },
+            "9": {
+              "buttonCode": 9,
+              "buttonDescription": "9"
+            },
+            "10": {
+              "buttonCode": 10,
+              "buttonDescription": "Exit"
+            },
+            "11": {
+              "buttonCode": 11,
+              "buttonDescription": "Channel Up"
+            },
+            "12": {
+              "buttonCode": 12,
+              "buttonDescription": "Period \".\""
+            },
+            "13": {
+              "buttonCode": 13,
+              "buttonDescription": "Channel Down"
+            },
+            "14": {
+              "buttonCode": 14,
+              "buttonDescription": "Source"
+            },
+            "15": {
+              "buttonCode": 15,
+              "buttonDescription": "Mute"
+            },
+            "16": {
+              "buttonCode": 16,
+              "buttonDescription": "Left"
+            },
+            "17": {
+              "buttonCode": 17,
+              "buttonDescription": "Right"
+            },
+            "18": {
+              "buttonCode": 18,
+              "buttonDescription": "Up"
+            },
+            "19": {
+              "buttonCode": 19,
+              "buttonDescription": "Down"
+            },
+            "20": {
+              "buttonCode": 20,
+              "buttonDescription": "Ok"
+            },
+            "21": {
+              "buttonCode": 21,
+              "buttonDescription": "Back"
+            },
+            "22": {
+              "buttonCode": 22,
+              "buttonDescription": "Power"
+            },
+            "23": {
+              "buttonCode": 23,
+              "buttonDescription": "Home"
+            },
+            "24": {
+              "buttonCode": 24,
+              "buttonDescription": "Search"
+            },
+            "25": {
+              "buttonCode": 25,
+              "buttonDescription": "Play"
+            },
+            "26": {
+              "buttonCode": 26,
+              "buttonDescription": "Fast Forward"
+            },
+            "27": {
+              "buttonCode": 27,
+              "buttonDescription": "Rewind"
+            },
+            "28": {
+              "buttonCode": 28,
+              "buttonDescription": "Pause"
+            },
+            "29": {
+              "buttonCode": 29,
+              "buttonDescription": "Add"
+            },
+            "30": {
+              "buttonCode": 30,
+              "buttonDescription": "Shuffle"
+            },
+            "31": {
+              "buttonCode": 31,
+              "buttonDescription": "Repeat"
+            },
+            "64": {
+              "buttonCode": 64,
+              "buttonDescription": "Volume Up"
+            },
+            "65": {
+              "buttonCode": 65,
+              "buttonDescription": "Volume Down"
+            },
+            "66": {
+              "buttonCode": 66,
+              "buttonDescription": "Brightness"
+            },
+            "67": {
+              "buttonCode": 67,
+              "buttonDescription": "Info"
+            },
+            "68": {
+              "buttonCode": 68,
+              "buttonDescription": "Green"
+            },
+            "69": {
+              "buttonCode": 69,
+              "buttonDescription": "0"
+            },
+            "70": {
+              "buttonCode": 70,
+              "buttonDescription": "Stop"
+            },
+            "71": {
+              "buttonCode": 71,
+              "buttonDescription": "Last"
+            },
+            "83": {
+              "buttonCode": 83,
+              "buttonDescription": "Red"
+            },
+            "84": {
+              "buttonCode": 84,
+              "buttonDescription": "Blue"
+            },
+            "87": {
+              "buttonCode": 87,
+              "buttonDescription": "Yellow"
+            }
+          }
+        }
+      },
+      "audioSignPropertyMap": {
+        "analog1": {
+          "min": 0,
+          "max": 100
+        },
+        "analog2": {
+          "min": 0,
+          "max": 100
+        },
+        "analog3": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi": {
+          "min": 0,
+          "max": 100
+        },
+        "spdif": {
+          "min": 0,
+          "max": 100
+        },
+        "usbA": {
+          "min": 0,
+          "max": 100
+        },
+        "usbB": {
+          "min": 0,
+          "max": 100
+        },
+        "usbC": {
+          "min": 0,
+          "max": 100
+        },
+        "usbD": {
+          "min": 0,
+          "max": 100
+        },
+        "usbTypeA": {
+          "min": 0,
+          "max": 100
+        },
+        "usbTypeC": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_1": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_2": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_3": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_4": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_5": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_6": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_7": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_1": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_2": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_3": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_4": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_5": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_6": {
+          "min": 0,
+          "max": 100
+        }
+      },
+      "wssDeviceSpec": {},
+      "lastModifiedTime": "2022-11-29T19:09:01.129Z"
+    },
+    "zones": {
+      "zonesById": {
+        "532aad50-4381-41ec-85c3-3c9ebbdbd5da": {
+          "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+          "name": "Zone 1",
+          "type": "VideoOrImages",
+          "tag": "VI1",
+          "nonInteractive": true,
+          "initialMediaStateId": "47289c03-44a4-4183-885e-bf6067e6b005",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080,
+            "pct": false
+          },
+          "properties": {
+            "viewMode": "Scale to Fill",
+            "videoVolume": 100,
+            "maxContentResolution": "HD",
+            "brightness": 128,
+            "contrast": 64,
+            "saturation": 64,
+            "hue": 0,
+            "zOrderFront": true,
+            "mosaic": false,
+            "audioOutput": "Analog",
+            "audioMode": "Stereo",
+            "audioMapping": "Audio1",
+            "audioOutputAssignments": {
+              "analog1": "Pcm",
+              "analog2": "None",
+              "analog3": "None",
+              "usbA": "None",
+              "usbB": "None",
+              "usbC": "None",
+              "usbD": "None",
+              "usbTypeA": "None",
+              "usbTypeC": "None",
+              "usb700_1": "None",
+              "usb700_2": "None",
+              "usb700_3": "None",
+              "usb700_4": "None",
+              "usb700_5": "None",
+              "usb700_6": "None",
+              "usb700_7": "None",
+              "usb_1": "None",
+              "usb_2": "None",
+              "usb_3": "None",
+              "usb_4": "None",
+              "usb_5": "None",
+              "usb_6": "None",
+              "hdmi": "Pcm",
+              "spdif": "Pcm"
+            },
+            "audioMixMode": "Stereo",
+            "audioVolume": 100,
+            "minimumVolume": 0,
+            "maximumVolume": 100,
+            "imageMode": "Scale to Fill"
+          }
+        }
+      },
+      "allZones": [
+        "532aad50-4381-41ec-85c3-3c9ebbdbd5da"
+      ],
+      "zoneLayersById": {
+        "e845801d-7529-42e1-90dc-8ccfa7ad7141": {
+          "id": "e845801d-7529-42e1-90dc-8ccfa7ad7141",
+          "type": "Graphics",
+          "zoneSequence": [
+            "532aad50-4381-41ec-85c3-3c9ebbdbd5da"
+          ]
+        },
+        "8b99c4b2-b55a-4139-b2e1-5915dbe9818c": {
+          "id": "8b99c4b2-b55a-4139-b2e1-5915dbe9818c",
+          "type": "Audio",
+          "zoneSequence": []
+        },
+        "c1eab109-a4ac-493a-8beb-9874da34a19d": {
+          "id": "c1eab109-a4ac-493a-8beb-9874da34a19d",
+          "type": "Invisible",
+          "zoneSequence": []
+        },
+        "af6e6887-c11f-49a8-9353-6be4be4b545b": {
+          "id": "af6e6887-c11f-49a8-9353-6be4be4b545b",
+          "type": "Video",
+          "zoneSequence": [
+            "532aad50-4381-41ec-85c3-3c9ebbdbd5da"
+          ],
+          "zoneLayerSpecificProperties": {
+            "type": "FourK",
+            "index": 0,
+            "sharedDecoder": false,
+            "enableMosaicDeinterlacer": false
+          }
+        },
+        "a26d8eb8-c0bb-48b0-8b06-3fdddaf2e132": {
+          "id": "a26d8eb8-c0bb-48b0-8b06-3fdddaf2e132",
+          "type": "Video",
+          "zoneSequence": [],
+          "zoneLayerSpecificProperties": {
+            "type": "FourK",
+            "index": 1,
+            "sharedDecoder": false,
+            "enableMosaicDeinterlacer": false
+          }
+        }
+      },
+      "zoneLayerSequence": [
+        "e845801d-7529-42e1-90dc-8ccfa7ad7141",
+        "af6e6887-c11f-49a8-9353-6be4be4b545b",
+        "a26d8eb8-c0bb-48b0-8b06-3fdddaf2e132"
+      ],
+      "zoneTagIndices": {
+        "532aad50-4381-41ec-85c3-3c9ebbdbd5da": 45
+      }
+    },
+    "mediaStates": {
+      "mediaStatesById": {
+        "47289c03-44a4-4183-885e-bf6067e6b005": {
+          "id": "47289c03-44a4-4183-885e-bf6067e6b005",
+          "name": "AirProtein_NYC.png",
+          "tag": "1",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "AirProtein_NYC.png",
+            "type": "Image",
+            "assetId": "5602df30-409b-4744-95af-8d26dd0d4f56",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "1dcbad86-9e9f-462a-814b-be8c0ae19e7b": {
+          "id": "1dcbad86-9e9f-462a-814b-be8c0ae19e7b",
+          "name": "Anchor_NYC.png",
+          "tag": "2",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Anchor_NYC.png",
+            "type": "Image",
+            "assetId": "18c93c59-029e-4ce7-86f0-d087edd3cc67",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "129a35a9-8466-4329-951b-dd8c80d269dc": {
+          "id": "129a35a9-8466-4329-951b-dd8c80d269dc",
+          "name": "Bowery_NYC.png",
+          "tag": "3",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Bowery_NYC.png",
+            "type": "Image",
+            "assetId": "25d428e7-22f4-42f6-aa81-35581210f6c0",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "867ad9cb-baa7-4cfa-9c01-61dff397b310": {
+          "id": "867ad9cb-baa7-4cfa-9c01-61dff397b310",
+          "name": "Brightline_NYC.png",
+          "tag": "4",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Brightline_NYC.png",
+            "type": "Image",
+            "assetId": "895079fa-00b6-49de-b070-e2d4353a361d",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "682418d1-8a38-4cec-8977-c27a120a4766": {
+          "id": "682418d1-8a38-4cec-8977-c27a120a4766",
+          "name": "Dapper_NYC.png",
+          "tag": "5",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Dapper_NYC.png",
+            "type": "Image",
+            "assetId": "469ec8e1-3009-4126-bae5-6472f5c9433c",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "194c1a1c-2747-4f08-88b5-525428ba38c8": {
+          "id": "194c1a1c-2747-4f08-88b5-525428ba38c8",
+          "name": "GitLab_NYC.png",
+          "tag": "6",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "GitLab_NYC.png",
+            "type": "Image",
+            "assetId": "de6b609e-d2c8-4ba7-8440-dfa46248c43f",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "9876c7bd-f69f-4a8d-9981-b552802f6099": {
+          "id": "9876c7bd-f69f-4a8d-9981-b552802f6099",
+          "name": "ROME_NYC.png",
+          "tag": "7",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "ROME_NYC.png",
+            "type": "Image",
+            "assetId": "30bfc664-d69e-4990-af48-150a5bbea2da",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "2ed037e6-21f1-4eff-ac1f-b4184fdc337e": {
+          "id": "2ed037e6-21f1-4eff-ac1f-b4184fdc337e",
+          "name": "Stripe_NYC.png",
+          "tag": "8",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Stripe_NYC.png",
+            "type": "Image",
+            "assetId": "a41a9512-04cc-4004-b870-2bc8ea632d7d",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "394555b1-de0c-4f94-af6a-3cde147360f5": {
+          "id": "394555b1-de0c-4f94-af6a-3cde147360f5",
+          "name": "Verve_NYC.png",
+          "tag": "9",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Verve_NYC.png",
+            "type": "Image",
+            "assetId": "d89475d2-c1f4-44dd-a9fa-5de660a95035",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "e3f79594-d764-41d3-aa33-8fa557c42fb0": {
+          "id": "e3f79594-d764-41d3-aa33-8fa557c42fb0",
+          "name": "Wonder_NYC.png",
+          "tag": "10",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Wonder_NYC.png",
+            "type": "Image",
+            "assetId": "728a69d7-052b-4e20-b653-c6f8ccda8879",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "d8c5fbba-ee88-4e58-9381-0d846cc06d8d": {
+          "id": "d8c5fbba-ee88-4e58-9381-0d846cc06d8d",
+          "name": "GV-NYC-04.png",
+          "tag": "11",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "GV-NYC-04.png",
+            "type": "Image",
+            "assetId": "3c12540b-6e20-426a-aeba-6b73cda3b306",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 1
+          }
+        },
+        "25b96901-7d24-4392-ba6e-0ef21457c7c0": {
+          "id": "25b96901-7d24-4392-ba6e-0ef21457c7c0",
+          "name": "GV-NYC-03.png",
+          "tag": "12",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "GV-NYC-03.png",
+            "type": "Image",
+            "assetId": "49323a4c-2e78-4af1-86db-7aed7a99d997",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 1
+          }
+        },
+        "8903ab13-6215-4e56-a676-79939bd054ee": {
+          "id": "8903ab13-6215-4e56-a676-79939bd054ee",
+          "name": "GV-NYC-02.png",
+          "tag": "13",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "GV-NYC-02.png",
+            "type": "Image",
+            "assetId": "1818c6a2-d5f3-4824-af9f-ddad6319f6a9",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 1
+          }
+        },
+        "f4b09804-f45a-40f3-a245-5d51c6693bf2": {
+          "id": "f4b09804-f45a-40f3-a245-5d51c6693bf2",
+          "name": "GV-NYC-01.png",
+          "tag": "14",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "GV-NYC-01.png",
+            "type": "Image",
+            "assetId": "0c69428c-257e-4944-903e-b4ac934613c7",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 1
+          }
+        },
+        "8addcd1a-2cb7-47e7-af86-7a0fe100cb4d": {
+          "id": "8addcd1a-2cb7-47e7-af86-7a0fe100cb4d",
+          "name": "AirProtein_NYC.png (1)",
+          "tag": "15",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "AirProtein_NYC.png",
+            "type": "Image",
+            "assetId": "5602df30-409b-4744-95af-8d26dd0d4f56",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "18251334-dd44-4051-bcc4-ab7bfc84c921": {
+          "id": "18251334-dd44-4051-bcc4-ab7bfc84c921",
+          "name": "Anchor_NYC.png (1)",
+          "tag": "16",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Anchor_NYC.png",
+            "type": "Image",
+            "assetId": "18c93c59-029e-4ce7-86f0-d087edd3cc67",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "f512a81c-b0a3-4e59-bb06-0a60a2e58cf1": {
+          "id": "f512a81c-b0a3-4e59-bb06-0a60a2e58cf1",
+          "name": "Bowery_NYC.png (1)",
+          "tag": "17",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Bowery_NYC.png",
+            "type": "Image",
+            "assetId": "25d428e7-22f4-42f6-aa81-35581210f6c0",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "e0273765-a400-4436-a9f5-7bb1c9d612f8": {
+          "id": "e0273765-a400-4436-a9f5-7bb1c9d612f8",
+          "name": "Brightline_NYC.png (1)",
+          "tag": "18",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Brightline_NYC.png",
+            "type": "Image",
+            "assetId": "895079fa-00b6-49de-b070-e2d4353a361d",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "116d03ed-d6a6-4fc7-b3d5-308cdb0e3707": {
+          "id": "116d03ed-d6a6-4fc7-b3d5-308cdb0e3707",
+          "name": "Dapper_NYC.png (1)",
+          "tag": "19",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Dapper_NYC.png",
+            "type": "Image",
+            "assetId": "469ec8e1-3009-4126-bae5-6472f5c9433c",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "d9d3418c-73f7-4166-9a61-81a2dd7576bd": {
+          "id": "d9d3418c-73f7-4166-9a61-81a2dd7576bd",
+          "name": "GitLab_NYC.png (1)",
+          "tag": "20",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "GitLab_NYC.png",
+            "type": "Image",
+            "assetId": "de6b609e-d2c8-4ba7-8440-dfa46248c43f",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "f1c85faa-e664-4fd8-9cf0-da2cfde04ec2": {
+          "id": "f1c85faa-e664-4fd8-9cf0-da2cfde04ec2",
+          "name": "ROME_NYC.png (1)",
+          "tag": "21",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "ROME_NYC.png",
+            "type": "Image",
+            "assetId": "30bfc664-d69e-4990-af48-150a5bbea2da",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "83710ae9-a0b5-4a4c-b071-c6dc25d43cca": {
+          "id": "83710ae9-a0b5-4a4c-b071-c6dc25d43cca",
+          "name": "Stripe_NYC.png (1)",
+          "tag": "22",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Stripe_NYC.png",
+            "type": "Image",
+            "assetId": "a41a9512-04cc-4004-b870-2bc8ea632d7d",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "d27cd1c4-7064-425b-81cb-1c0b937252ad": {
+          "id": "d27cd1c4-7064-425b-81cb-1c0b937252ad",
+          "name": "Verve_NYC.png (1)",
+          "tag": "23",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Verve_NYC.png",
+            "type": "Image",
+            "assetId": "d89475d2-c1f4-44dd-a9fa-5de660a95035",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "57a03118-5e33-4b54-9197-b35ab48b40c3": {
+          "id": "57a03118-5e33-4b54-9197-b35ab48b40c3",
+          "name": "Wonder_NYC.png (1)",
+          "tag": "24",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Wonder_NYC.png",
+            "type": "Image",
+            "assetId": "728a69d7-052b-4e20-b653-c6f8ccda8879",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "867fb7e9-a62e-4f4e-baa4-d924d70d6189": {
+          "id": "867fb7e9-a62e-4f4e-baa4-d924d70d6189",
+          "name": "AirProtein_NYC.png (2)",
+          "tag": "25",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "AirProtein_NYC.png",
+            "type": "Image",
+            "assetId": "5602df30-409b-4744-95af-8d26dd0d4f56",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "efc803e6-4d09-42c3-bb0d-9074ca744f09": {
+          "id": "efc803e6-4d09-42c3-bb0d-9074ca744f09",
+          "name": "Anchor_NYC.png (2)",
+          "tag": "26",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Anchor_NYC.png",
+            "type": "Image",
+            "assetId": "18c93c59-029e-4ce7-86f0-d087edd3cc67",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "b0cf544a-2645-4421-9f24-671579c9c95f": {
+          "id": "b0cf544a-2645-4421-9f24-671579c9c95f",
+          "name": "Bowery_NYC.png (2)",
+          "tag": "27",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Bowery_NYC.png",
+            "type": "Image",
+            "assetId": "25d428e7-22f4-42f6-aa81-35581210f6c0",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "91d84c01-7ec8-493f-86f1-20d08b428cfc": {
+          "id": "91d84c01-7ec8-493f-86f1-20d08b428cfc",
+          "name": "Brightline_NYC.png (2)",
+          "tag": "28",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Brightline_NYC.png",
+            "type": "Image",
+            "assetId": "895079fa-00b6-49de-b070-e2d4353a361d",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "a50c0be7-b642-497b-b8d5-e797ec272c8d": {
+          "id": "a50c0be7-b642-497b-b8d5-e797ec272c8d",
+          "name": "Dapper_NYC.png (2)",
+          "tag": "29",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Dapper_NYC.png",
+            "type": "Image",
+            "assetId": "469ec8e1-3009-4126-bae5-6472f5c9433c",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "21c39500-63ca-495a-bd52-94c0acf26522": {
+          "id": "21c39500-63ca-495a-bd52-94c0acf26522",
+          "name": "GitLab_NYC.png (2)",
+          "tag": "30",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "GitLab_NYC.png",
+            "type": "Image",
+            "assetId": "de6b609e-d2c8-4ba7-8440-dfa46248c43f",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "5f5aa73a-151c-4023-8809-d17a18888fdd": {
+          "id": "5f5aa73a-151c-4023-8809-d17a18888fdd",
+          "name": "ROME_NYC.png (2)",
+          "tag": "31",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "ROME_NYC.png",
+            "type": "Image",
+            "assetId": "30bfc664-d69e-4990-af48-150a5bbea2da",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "f6eda6d3-38a0-4fad-b51a-a7f98f4d7b8b": {
+          "id": "f6eda6d3-38a0-4fad-b51a-a7f98f4d7b8b",
+          "name": "Stripe_NYC.png (2)",
+          "tag": "32",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Stripe_NYC.png",
+            "type": "Image",
+            "assetId": "a41a9512-04cc-4004-b870-2bc8ea632d7d",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "797d7c2c-88fe-44b8-8d94-1cd706f40416": {
+          "id": "797d7c2c-88fe-44b8-8d94-1cd706f40416",
+          "name": "Verve_NYC.png (2)",
+          "tag": "33",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Verve_NYC.png",
+            "type": "Image",
+            "assetId": "d89475d2-c1f4-44dd-a9fa-5de660a95035",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "f419bc52-488d-4bec-8761-6daa8dbc4722": {
+          "id": "f419bc52-488d-4bec-8761-6daa8dbc4722",
+          "name": "Wonder_NYC.png (2)",
+          "tag": "34",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Wonder_NYC.png",
+            "type": "Image",
+            "assetId": "728a69d7-052b-4e20-b653-c6f8ccda8879",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "ecac7e29-c681-43d9-a73d-5dcb2a33af7f": {
+          "id": "ecac7e29-c681-43d9-a73d-5dcb2a33af7f",
+          "name": "AirProtein_NYC.png (3)",
+          "tag": "35",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "AirProtein_NYC.png",
+            "type": "Image",
+            "assetId": "5602df30-409b-4744-95af-8d26dd0d4f56",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "a3f00d8d-6199-4f6f-bca6-891622e4f9d4": {
+          "id": "a3f00d8d-6199-4f6f-bca6-891622e4f9d4",
+          "name": "Anchor_NYC.png (3)",
+          "tag": "36",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Anchor_NYC.png",
+            "type": "Image",
+            "assetId": "18c93c59-029e-4ce7-86f0-d087edd3cc67",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "5857e48d-73f8-4d8b-9bde-a9e7b3aea701": {
+          "id": "5857e48d-73f8-4d8b-9bde-a9e7b3aea701",
+          "name": "Bowery_NYC.png (3)",
+          "tag": "37",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Bowery_NYC.png",
+            "type": "Image",
+            "assetId": "25d428e7-22f4-42f6-aa81-35581210f6c0",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "84a01f4a-3a76-4abc-a6e4-6cbf60468fed": {
+          "id": "84a01f4a-3a76-4abc-a6e4-6cbf60468fed",
+          "name": "Brightline_NYC.png (3)",
+          "tag": "38",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Brightline_NYC.png",
+            "type": "Image",
+            "assetId": "895079fa-00b6-49de-b070-e2d4353a361d",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "17233df4-47dc-4572-8cb2-a66d7ab85c37": {
+          "id": "17233df4-47dc-4572-8cb2-a66d7ab85c37",
+          "name": "Dapper_NYC.png (3)",
+          "tag": "39",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Dapper_NYC.png",
+            "type": "Image",
+            "assetId": "469ec8e1-3009-4126-bae5-6472f5c9433c",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "85743e9b-0910-4608-8314-4a9f6cadab7f": {
+          "id": "85743e9b-0910-4608-8314-4a9f6cadab7f",
+          "name": "GitLab_NYC.png (3)",
+          "tag": "40",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "GitLab_NYC.png",
+            "type": "Image",
+            "assetId": "de6b609e-d2c8-4ba7-8440-dfa46248c43f",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "95fe0278-1044-45fe-95ba-11c593749aeb": {
+          "id": "95fe0278-1044-45fe-95ba-11c593749aeb",
+          "name": "ROME_NYC.png (3)",
+          "tag": "41",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "ROME_NYC.png",
+            "type": "Image",
+            "assetId": "30bfc664-d69e-4990-af48-150a5bbea2da",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "41691b76-0d5c-47a0-bd54-d385dfc3b7c9": {
+          "id": "41691b76-0d5c-47a0-bd54-d385dfc3b7c9",
+          "name": "Stripe_NYC.png (3)",
+          "tag": "42",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Stripe_NYC.png",
+            "type": "Image",
+            "assetId": "a41a9512-04cc-4004-b870-2bc8ea632d7d",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "e2fbbc8b-9ed6-45bf-93a7-efa2e56b875a": {
+          "id": "e2fbbc8b-9ed6-45bf-93a7-efa2e56b875a",
+          "name": "Verve_NYC.png (3)",
+          "tag": "43",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Verve_NYC.png",
+            "type": "Image",
+            "assetId": "d89475d2-c1f4-44dd-a9fa-5de660a95035",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        },
+        "08cd6ad3-007e-4330-8a0e-68cdf15b1ef7": {
+          "id": "08cd6ad3-007e-4330-8a0e-68cdf15b1ef7",
+          "name": "Wonder_NYC.png (3)",
+          "tag": "44",
+          "container": {
+            "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Wonder_NYC.png",
+            "type": "Image",
+            "assetId": "728a69d7-052b-4e20-b653-c6f8ccda8879",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "Image wipe from left",
+            "transitionDuration": 0.5
+          }
+        }
+      },
+      "sequencesByParentId": {}
+    },
+    "events": {
+      "2fac1a63-c0f4-429c-ba2a-189eee3261c5": {
+        "id": "2fac1a63-c0f4-429c-ba2a-189eee3261c5",
+        "name": "AirProtein_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "47289c03-44a4-4183-885e-bf6067e6b005",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "7eb60bbb-abfb-43a5-b218-c72453ac418d": {
+        "id": "7eb60bbb-abfb-43a5-b218-c72453ac418d",
+        "name": "Anchor_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "1dcbad86-9e9f-462a-814b-be8c0ae19e7b",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "877fe357-470c-40ba-8c03-8bd943eb3c4b": {
+        "id": "877fe357-470c-40ba-8c03-8bd943eb3c4b",
+        "name": "Bowery_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "129a35a9-8466-4329-951b-dd8c80d269dc",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "0343254e-ba9a-4c3b-ad46-10076d5cd353": {
+        "id": "0343254e-ba9a-4c3b-ad46-10076d5cd353",
+        "name": "Brightline_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "867ad9cb-baa7-4cfa-9c01-61dff397b310",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "24a3a667-7c7b-4533-a8bd-61b056ce3dc7": {
+        "id": "24a3a667-7c7b-4533-a8bd-61b056ce3dc7",
+        "name": "Dapper_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "682418d1-8a38-4cec-8977-c27a120a4766",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "1b415eb0-2cda-46cd-905a-17be73f15021": {
+        "id": "1b415eb0-2cda-46cd-905a-17be73f15021",
+        "name": "GitLab_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "194c1a1c-2747-4f08-88b5-525428ba38c8",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "a32154f0-2bf9-47c5-9cc7-4e8c8c445d17": {
+        "id": "a32154f0-2bf9-47c5-9cc7-4e8c8c445d17",
+        "name": "ROME_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "9876c7bd-f69f-4a8d-9981-b552802f6099",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "eb79b1e2-8f3b-463a-802d-493b29b77916": {
+        "id": "eb79b1e2-8f3b-463a-802d-493b29b77916",
+        "name": "Stripe_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "2ed037e6-21f1-4eff-ac1f-b4184fdc337e",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "4f62576d-9b4d-41eb-8c0a-8f1c9efe3772": {
+        "id": "4f62576d-9b4d-41eb-8c0a-8f1c9efe3772",
+        "name": "Verve_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "394555b1-de0c-4f94-af6a-3cde147360f5",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "2be42d52-261f-4e59-9de1-d5f2268ee812": {
+        "id": "2be42d52-261f-4e59-9de1-d5f2268ee812",
+        "name": "Wonder_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "e3f79594-d764-41d3-aa33-8fa557c42fb0",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "20ae9d19-ec4d-4d79-a0d9-3dcb1556a27a": {
+        "id": "20ae9d19-ec4d-4d79-a0d9-3dcb1556a27a",
+        "name": "GV-NYC-04.png_ev",
+        "type": "Timer",
+        "mediaStateId": "d8c5fbba-ee88-4e58-9381-0d846cc06d8d",
+        "disabled": false,
+        "data": {
+          "interval": 20
+        }
+      },
+      "b3d15158-5fc9-438b-a4b8-d5c7d99e24ed": {
+        "id": "b3d15158-5fc9-438b-a4b8-d5c7d99e24ed",
+        "name": "GV-NYC-03.png_ev",
+        "type": "Timer",
+        "mediaStateId": "25b96901-7d24-4392-ba6e-0ef21457c7c0",
+        "disabled": false,
+        "data": {
+          "interval": 20
+        }
+      },
+      "136e6dc6-87fd-4b2e-9801-1772f8af39a2": {
+        "id": "136e6dc6-87fd-4b2e-9801-1772f8af39a2",
+        "name": "GV-NYC-02.png_ev",
+        "type": "Timer",
+        "mediaStateId": "8903ab13-6215-4e56-a676-79939bd054ee",
+        "disabled": false,
+        "data": {
+          "interval": 20
+        }
+      },
+      "e4be190e-b265-44bb-b923-8138072c5e93": {
+        "id": "e4be190e-b265-44bb-b923-8138072c5e93",
+        "name": "GV-NYC-01.png_ev",
+        "type": "Timer",
+        "mediaStateId": "f4b09804-f45a-40f3-a245-5d51c6693bf2",
+        "disabled": false,
+        "data": {
+          "interval": 20
+        }
+      },
+      "939b0ba5-6537-427b-a4ed-c6cc355e1eb9": {
+        "id": "939b0ba5-6537-427b-a4ed-c6cc355e1eb9",
+        "name": "AirProtein_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "8addcd1a-2cb7-47e7-af86-7a0fe100cb4d",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "1b83da34-71fc-427d-81d5-e0764215f54d": {
+        "id": "1b83da34-71fc-427d-81d5-e0764215f54d",
+        "name": "Anchor_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "18251334-dd44-4051-bcc4-ab7bfc84c921",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "592a5cb9-b5ac-41ac-a2a6-0e985a6b7762": {
+        "id": "592a5cb9-b5ac-41ac-a2a6-0e985a6b7762",
+        "name": "Bowery_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "f512a81c-b0a3-4e59-bb06-0a60a2e58cf1",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "983b3c80-beaa-4f21-9607-028600350153": {
+        "id": "983b3c80-beaa-4f21-9607-028600350153",
+        "name": "Brightline_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "e0273765-a400-4436-a9f5-7bb1c9d612f8",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "3f23c322-01dd-488c-b83c-5bb047d839ef": {
+        "id": "3f23c322-01dd-488c-b83c-5bb047d839ef",
+        "name": "Dapper_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "116d03ed-d6a6-4fc7-b3d5-308cdb0e3707",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "931e0f7e-23e5-4c39-b59c-5c4cdc12f762": {
+        "id": "931e0f7e-23e5-4c39-b59c-5c4cdc12f762",
+        "name": "GitLab_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "d9d3418c-73f7-4166-9a61-81a2dd7576bd",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "8e3061ec-6544-450d-a0c3-15058a2bcb26": {
+        "id": "8e3061ec-6544-450d-a0c3-15058a2bcb26",
+        "name": "ROME_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "f1c85faa-e664-4fd8-9cf0-da2cfde04ec2",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "c4d2a74f-ecd8-4bae-b863-7200bf4f824b": {
+        "id": "c4d2a74f-ecd8-4bae-b863-7200bf4f824b",
+        "name": "Stripe_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "83710ae9-a0b5-4a4c-b071-c6dc25d43cca",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "7e51dd0e-b4c8-45fd-adc9-474d2befa650": {
+        "id": "7e51dd0e-b4c8-45fd-adc9-474d2befa650",
+        "name": "Verve_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "d27cd1c4-7064-425b-81cb-1c0b937252ad",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "c7d27bd8-06a0-4e69-91b8-fedd5cd6f38f": {
+        "id": "c7d27bd8-06a0-4e69-91b8-fedd5cd6f38f",
+        "name": "Wonder_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "57a03118-5e33-4b54-9197-b35ab48b40c3",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "d1418bd5-f932-4cf9-91b1-bf0866a98cdc": {
+        "id": "d1418bd5-f932-4cf9-91b1-bf0866a98cdc",
+        "name": "AirProtein_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "867fb7e9-a62e-4f4e-baa4-d924d70d6189",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "6f0115c4-c746-4d8a-801b-78f0bef01cf8": {
+        "id": "6f0115c4-c746-4d8a-801b-78f0bef01cf8",
+        "name": "Anchor_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "efc803e6-4d09-42c3-bb0d-9074ca744f09",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "0397fbd7-0714-4558-a866-01dfe180ff04": {
+        "id": "0397fbd7-0714-4558-a866-01dfe180ff04",
+        "name": "Bowery_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "b0cf544a-2645-4421-9f24-671579c9c95f",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "5527c747-a5ed-4721-9ed0-88479ede37f5": {
+        "id": "5527c747-a5ed-4721-9ed0-88479ede37f5",
+        "name": "Brightline_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "91d84c01-7ec8-493f-86f1-20d08b428cfc",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "434c3255-9746-4b27-ac80-dfcf62ad9c86": {
+        "id": "434c3255-9746-4b27-ac80-dfcf62ad9c86",
+        "name": "Dapper_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "a50c0be7-b642-497b-b8d5-e797ec272c8d",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "52461b8c-70e4-453c-bb94-1d5715ea09c7": {
+        "id": "52461b8c-70e4-453c-bb94-1d5715ea09c7",
+        "name": "GitLab_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "21c39500-63ca-495a-bd52-94c0acf26522",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "6d6ae5e3-a34f-4cf5-b266-2ba3e9d02167": {
+        "id": "6d6ae5e3-a34f-4cf5-b266-2ba3e9d02167",
+        "name": "ROME_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "5f5aa73a-151c-4023-8809-d17a18888fdd",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "b28a14c5-6ae2-48ba-b19e-5705b56c84b0": {
+        "id": "b28a14c5-6ae2-48ba-b19e-5705b56c84b0",
+        "name": "Stripe_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "f6eda6d3-38a0-4fad-b51a-a7f98f4d7b8b",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "70a90daa-185c-463d-9e53-134829cb451e": {
+        "id": "70a90daa-185c-463d-9e53-134829cb451e",
+        "name": "Verve_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "797d7c2c-88fe-44b8-8d94-1cd706f40416",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "096db11f-1a69-4321-83c4-b340d95613e4": {
+        "id": "096db11f-1a69-4321-83c4-b340d95613e4",
+        "name": "Wonder_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "f419bc52-488d-4bec-8761-6daa8dbc4722",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "71c32a2b-f3e6-4944-b60c-8232af739b41": {
+        "id": "71c32a2b-f3e6-4944-b60c-8232af739b41",
+        "name": "AirProtein_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "ecac7e29-c681-43d9-a73d-5dcb2a33af7f",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "2b9704a0-d374-40e6-93bd-9e3e82fa6cac": {
+        "id": "2b9704a0-d374-40e6-93bd-9e3e82fa6cac",
+        "name": "Anchor_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "a3f00d8d-6199-4f6f-bca6-891622e4f9d4",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "2cf3c9bf-620e-4185-a967-09b77437918d": {
+        "id": "2cf3c9bf-620e-4185-a967-09b77437918d",
+        "name": "Bowery_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "5857e48d-73f8-4d8b-9bde-a9e7b3aea701",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "111d99d4-cc1d-4ecf-9d84-7b9b27526ee8": {
+        "id": "111d99d4-cc1d-4ecf-9d84-7b9b27526ee8",
+        "name": "Brightline_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "84a01f4a-3a76-4abc-a6e4-6cbf60468fed",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "d19f76d3-8476-4f39-9321-75fcacf5758e": {
+        "id": "d19f76d3-8476-4f39-9321-75fcacf5758e",
+        "name": "Dapper_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "17233df4-47dc-4572-8cb2-a66d7ab85c37",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "18c5e2f1-4ee7-4e84-a724-6788a897cb1e": {
+        "id": "18c5e2f1-4ee7-4e84-a724-6788a897cb1e",
+        "name": "GitLab_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "85743e9b-0910-4608-8314-4a9f6cadab7f",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "f0d2cc25-8bf5-4733-b006-2802f2449416": {
+        "id": "f0d2cc25-8bf5-4733-b006-2802f2449416",
+        "name": "ROME_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "95fe0278-1044-45fe-95ba-11c593749aeb",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "55d00a9c-1b28-4509-b9d5-d7141858ed43": {
+        "id": "55d00a9c-1b28-4509-b9d5-d7141858ed43",
+        "name": "Stripe_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "41691b76-0d5c-47a0-bd54-d385dfc3b7c9",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "9b18927d-cb80-4bff-ac61-923795abe479": {
+        "id": "9b18927d-cb80-4bff-ac61-923795abe479",
+        "name": "Verve_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "e2fbbc8b-9ed6-45bf-93a7-efa2e56b875a",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      },
+      "bc5da7da-ac8e-471d-acfb-0604c13eedf3": {
+        "id": "bc5da7da-ac8e-471d-acfb-0604c13eedf3",
+        "name": "Wonder_NYC.png_ev",
+        "type": "Timer",
+        "mediaStateId": "08cd6ad3-007e-4330-8a0e-68cdf15b1ef7",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        }
+      }
+    },
+    "transitions": {
+      "transitionsById": {
+        "b004554b-b834-4c0e-a66b-5d7e2d443dba": {
+          "id": "b004554b-b834-4c0e-a66b-5d7e2d443dba",
+          "name": "AirProtein_NYC.png_tr",
+          "eventId": "2fac1a63-c0f4-429c-ba2a-189eee3261c5",
+          "targetMediaStateId": "1dcbad86-9e9f-462a-814b-be8c0ae19e7b",
+          "type": "No effect",
+          "duration": 0
+        },
+        "10889c97-2793-4efe-b822-7ef29bb5c1ea": {
+          "id": "10889c97-2793-4efe-b822-7ef29bb5c1ea",
+          "name": "Anchor_NYC.png_tr",
+          "eventId": "7eb60bbb-abfb-43a5-b218-c72453ac418d",
+          "targetMediaStateId": "129a35a9-8466-4329-951b-dd8c80d269dc",
+          "type": "No effect",
+          "duration": 0
+        },
+        "552b7a05-dafc-4be6-9834-891c01196117": {
+          "id": "552b7a05-dafc-4be6-9834-891c01196117",
+          "name": "Bowery_NYC.png_tr",
+          "eventId": "877fe357-470c-40ba-8c03-8bd943eb3c4b",
+          "targetMediaStateId": "867ad9cb-baa7-4cfa-9c01-61dff397b310",
+          "type": "No effect",
+          "duration": 0
+        },
+        "d8c22b40-c091-4808-b9b4-d8ea2bb6aff5": {
+          "id": "d8c22b40-c091-4808-b9b4-d8ea2bb6aff5",
+          "name": "Brightline_NYC.png_tr",
+          "eventId": "0343254e-ba9a-4c3b-ad46-10076d5cd353",
+          "targetMediaStateId": "682418d1-8a38-4cec-8977-c27a120a4766",
+          "type": "No effect",
+          "duration": 0
+        },
+        "2b4abfbd-a832-4470-a6d8-648404bcfbe1": {
+          "id": "2b4abfbd-a832-4470-a6d8-648404bcfbe1",
+          "name": "Dapper_NYC.png_tr",
+          "eventId": "24a3a667-7c7b-4533-a8bd-61b056ce3dc7",
+          "targetMediaStateId": "194c1a1c-2747-4f08-88b5-525428ba38c8",
+          "type": "No effect",
+          "duration": 0
+        },
+        "73c78390-b203-464b-bb0c-e2c8fe25329f": {
+          "id": "73c78390-b203-464b-bb0c-e2c8fe25329f",
+          "name": "GitLab_NYC.png_tr",
+          "eventId": "1b415eb0-2cda-46cd-905a-17be73f15021",
+          "targetMediaStateId": "9876c7bd-f69f-4a8d-9981-b552802f6099",
+          "type": "No effect",
+          "duration": 0
+        },
+        "8eac51b8-6fac-4ca9-a072-25d64cc656b1": {
+          "id": "8eac51b8-6fac-4ca9-a072-25d64cc656b1",
+          "name": "ROME_NYC.png_tr",
+          "eventId": "a32154f0-2bf9-47c5-9cc7-4e8c8c445d17",
+          "targetMediaStateId": "2ed037e6-21f1-4eff-ac1f-b4184fdc337e",
+          "type": "No effect",
+          "duration": 0
+        },
+        "e2f83fb2-9f9c-4d63-9149-11e0803f3fd5": {
+          "id": "e2f83fb2-9f9c-4d63-9149-11e0803f3fd5",
+          "name": "Stripe_NYC.png_tr",
+          "eventId": "eb79b1e2-8f3b-463a-802d-493b29b77916",
+          "targetMediaStateId": "394555b1-de0c-4f94-af6a-3cde147360f5",
+          "type": "No effect",
+          "duration": 0
+        },
+        "7c7b38ff-0843-4065-9cc7-416d818ce6e2": {
+          "id": "7c7b38ff-0843-4065-9cc7-416d818ce6e2",
+          "name": "Verve_NYC.png_tr",
+          "eventId": "4f62576d-9b4d-41eb-8c0a-8f1c9efe3772",
+          "targetMediaStateId": "e3f79594-d764-41d3-aa33-8fa557c42fb0",
+          "type": "No effect",
+          "duration": 0
+        },
+        "5144ae5c-e7ce-4192-9fb6-c995112aff2f": {
+          "id": "5144ae5c-e7ce-4192-9fb6-c995112aff2f",
+          "name": "Wonder_NYC.png_tr",
+          "eventId": "2be42d52-261f-4e59-9de1-d5f2268ee812",
+          "targetMediaStateId": "d8c5fbba-ee88-4e58-9381-0d846cc06d8d",
+          "type": "No effect",
+          "duration": 0
+        },
+        "9576e181-05ca-4a77-a0c0-9baf52aca165": {
+          "id": "9576e181-05ca-4a77-a0c0-9baf52aca165",
+          "name": "GV-NYC-04.png_tr",
+          "eventId": "20ae9d19-ec4d-4d79-a0d9-3dcb1556a27a",
+          "targetMediaStateId": "8addcd1a-2cb7-47e7-af86-7a0fe100cb4d",
+          "type": "No effect",
+          "duration": 0
+        },
+        "af159d63-9ea8-4587-9e43-7639b08538e5": {
+          "id": "af159d63-9ea8-4587-9e43-7639b08538e5",
+          "name": "GV-NYC-03.png_tr",
+          "eventId": "b3d15158-5fc9-438b-a4b8-d5c7d99e24ed",
+          "targetMediaStateId": "867fb7e9-a62e-4f4e-baa4-d924d70d6189",
+          "type": "No effect",
+          "duration": 0
+        },
+        "673b0720-a1d7-4c41-b06c-0ecbf301674e": {
+          "id": "673b0720-a1d7-4c41-b06c-0ecbf301674e",
+          "name": "GV-NYC-02.png_tr",
+          "eventId": "136e6dc6-87fd-4b2e-9801-1772f8af39a2",
+          "targetMediaStateId": "ecac7e29-c681-43d9-a73d-5dcb2a33af7f",
+          "type": "No effect",
+          "duration": 0
+        },
+        "2c7b6cf3-ffb0-4250-a633-6929f29b92d3": {
+          "id": "2c7b6cf3-ffb0-4250-a633-6929f29b92d3",
+          "name": "GV-NYC-01.png_tr",
+          "eventId": "e4be190e-b265-44bb-b923-8138072c5e93",
+          "targetMediaStateId": "47289c03-44a4-4183-885e-bf6067e6b005",
+          "type": "No effect",
+          "duration": 0
+        },
+        "98a30feb-bf36-4ec8-9b77-e4d6e387617d": {
+          "id": "98a30feb-bf36-4ec8-9b77-e4d6e387617d",
+          "name": "AirProtein_NYC.png_tr",
+          "eventId": "939b0ba5-6537-427b-a4ed-c6cc355e1eb9",
+          "targetMediaStateId": "18251334-dd44-4051-bcc4-ab7bfc84c921",
+          "type": "No effect",
+          "duration": 0
+        },
+        "91ad19a2-af41-4bf4-a1b3-b742282e2d49": {
+          "id": "91ad19a2-af41-4bf4-a1b3-b742282e2d49",
+          "name": "Anchor_NYC.png_tr",
+          "eventId": "1b83da34-71fc-427d-81d5-e0764215f54d",
+          "targetMediaStateId": "f512a81c-b0a3-4e59-bb06-0a60a2e58cf1",
+          "type": "No effect",
+          "duration": 0
+        },
+        "0e974cf7-b22b-4484-8ede-7847ba74c262": {
+          "id": "0e974cf7-b22b-4484-8ede-7847ba74c262",
+          "name": "Bowery_NYC.png_tr",
+          "eventId": "592a5cb9-b5ac-41ac-a2a6-0e985a6b7762",
+          "targetMediaStateId": "e0273765-a400-4436-a9f5-7bb1c9d612f8",
+          "type": "No effect",
+          "duration": 0
+        },
+        "55a18dad-9d79-48f0-a634-3a45aacbcc3f": {
+          "id": "55a18dad-9d79-48f0-a634-3a45aacbcc3f",
+          "name": "Brightline_NYC.png_tr",
+          "eventId": "983b3c80-beaa-4f21-9607-028600350153",
+          "targetMediaStateId": "116d03ed-d6a6-4fc7-b3d5-308cdb0e3707",
+          "type": "No effect",
+          "duration": 0
+        },
+        "fb60ba23-70cc-418e-b387-e3d939cac786": {
+          "id": "fb60ba23-70cc-418e-b387-e3d939cac786",
+          "name": "Dapper_NYC.png_tr",
+          "eventId": "3f23c322-01dd-488c-b83c-5bb047d839ef",
+          "targetMediaStateId": "d9d3418c-73f7-4166-9a61-81a2dd7576bd",
+          "type": "No effect",
+          "duration": 0
+        },
+        "6df66639-dd3c-4a0a-a7da-341753aebeaa": {
+          "id": "6df66639-dd3c-4a0a-a7da-341753aebeaa",
+          "name": "GitLab_NYC.png_tr",
+          "eventId": "931e0f7e-23e5-4c39-b59c-5c4cdc12f762",
+          "targetMediaStateId": "f1c85faa-e664-4fd8-9cf0-da2cfde04ec2",
+          "type": "No effect",
+          "duration": 0
+        },
+        "3b2a6c68-f5a2-45bc-b6ca-6d93e76dfd15": {
+          "id": "3b2a6c68-f5a2-45bc-b6ca-6d93e76dfd15",
+          "name": "ROME_NYC.png_tr",
+          "eventId": "8e3061ec-6544-450d-a0c3-15058a2bcb26",
+          "targetMediaStateId": "83710ae9-a0b5-4a4c-b071-c6dc25d43cca",
+          "type": "No effect",
+          "duration": 0
+        },
+        "6fcf0a46-9f38-40c5-8637-28fa2d71b767": {
+          "id": "6fcf0a46-9f38-40c5-8637-28fa2d71b767",
+          "name": "Stripe_NYC.png_tr",
+          "eventId": "c4d2a74f-ecd8-4bae-b863-7200bf4f824b",
+          "targetMediaStateId": "d27cd1c4-7064-425b-81cb-1c0b937252ad",
+          "type": "No effect",
+          "duration": 0
+        },
+        "30b3eda5-2cef-461a-a94a-c07ddbfbf637": {
+          "id": "30b3eda5-2cef-461a-a94a-c07ddbfbf637",
+          "name": "Verve_NYC.png_tr",
+          "eventId": "7e51dd0e-b4c8-45fd-adc9-474d2befa650",
+          "targetMediaStateId": "57a03118-5e33-4b54-9197-b35ab48b40c3",
+          "type": "No effect",
+          "duration": 0
+        },
+        "1808af5a-3d0e-4c13-a929-7c72f73a0982": {
+          "id": "1808af5a-3d0e-4c13-a929-7c72f73a0982",
+          "name": "Wonder_NYC.png_tr",
+          "eventId": "c7d27bd8-06a0-4e69-91b8-fedd5cd6f38f",
+          "targetMediaStateId": "25b96901-7d24-4392-ba6e-0ef21457c7c0",
+          "type": "No effect",
+          "duration": 0
+        },
+        "171ec3ea-f87b-479d-a5a3-dde9f13278b9": {
+          "id": "171ec3ea-f87b-479d-a5a3-dde9f13278b9",
+          "name": "AirProtein_NYC.png_tr",
+          "eventId": "d1418bd5-f932-4cf9-91b1-bf0866a98cdc",
+          "targetMediaStateId": "efc803e6-4d09-42c3-bb0d-9074ca744f09",
+          "type": "No effect",
+          "duration": 0
+        },
+        "90b44aae-b80c-4882-a834-112eef24667d": {
+          "id": "90b44aae-b80c-4882-a834-112eef24667d",
+          "name": "Anchor_NYC.png_tr",
+          "eventId": "6f0115c4-c746-4d8a-801b-78f0bef01cf8",
+          "targetMediaStateId": "b0cf544a-2645-4421-9f24-671579c9c95f",
+          "type": "No effect",
+          "duration": 0
+        },
+        "a90273fe-815c-4663-824c-b205002bf419": {
+          "id": "a90273fe-815c-4663-824c-b205002bf419",
+          "name": "Bowery_NYC.png_tr",
+          "eventId": "0397fbd7-0714-4558-a866-01dfe180ff04",
+          "targetMediaStateId": "91d84c01-7ec8-493f-86f1-20d08b428cfc",
+          "type": "No effect",
+          "duration": 0
+        },
+        "daa2fa70-95b1-4403-a855-dbfed00bc53f": {
+          "id": "daa2fa70-95b1-4403-a855-dbfed00bc53f",
+          "name": "Brightline_NYC.png_tr",
+          "eventId": "5527c747-a5ed-4721-9ed0-88479ede37f5",
+          "targetMediaStateId": "a50c0be7-b642-497b-b8d5-e797ec272c8d",
+          "type": "No effect",
+          "duration": 0
+        },
+        "faa7ef6d-2252-4a56-a24e-b302da534781": {
+          "id": "faa7ef6d-2252-4a56-a24e-b302da534781",
+          "name": "Dapper_NYC.png_tr",
+          "eventId": "434c3255-9746-4b27-ac80-dfcf62ad9c86",
+          "targetMediaStateId": "21c39500-63ca-495a-bd52-94c0acf26522",
+          "type": "No effect",
+          "duration": 0
+        },
+        "c6942f70-9f13-46dd-a15b-4a821bef29d6": {
+          "id": "c6942f70-9f13-46dd-a15b-4a821bef29d6",
+          "name": "GitLab_NYC.png_tr",
+          "eventId": "52461b8c-70e4-453c-bb94-1d5715ea09c7",
+          "targetMediaStateId": "5f5aa73a-151c-4023-8809-d17a18888fdd",
+          "type": "No effect",
+          "duration": 0
+        },
+        "9b877fcb-0404-49f6-87d9-836df71f0fd9": {
+          "id": "9b877fcb-0404-49f6-87d9-836df71f0fd9",
+          "name": "ROME_NYC.png_tr",
+          "eventId": "6d6ae5e3-a34f-4cf5-b266-2ba3e9d02167",
+          "targetMediaStateId": "f6eda6d3-38a0-4fad-b51a-a7f98f4d7b8b",
+          "type": "No effect",
+          "duration": 0
+        },
+        "b9634be0-c2d7-4585-bd8f-8095f4324df0": {
+          "id": "b9634be0-c2d7-4585-bd8f-8095f4324df0",
+          "name": "Stripe_NYC.png_tr",
+          "eventId": "b28a14c5-6ae2-48ba-b19e-5705b56c84b0",
+          "targetMediaStateId": "797d7c2c-88fe-44b8-8d94-1cd706f40416",
+          "type": "No effect",
+          "duration": 0
+        },
+        "aec5ffd5-26be-4ebe-97f3-b57bdf1f8513": {
+          "id": "aec5ffd5-26be-4ebe-97f3-b57bdf1f8513",
+          "name": "Verve_NYC.png_tr",
+          "eventId": "70a90daa-185c-463d-9e53-134829cb451e",
+          "targetMediaStateId": "f419bc52-488d-4bec-8761-6daa8dbc4722",
+          "type": "No effect",
+          "duration": 0
+        },
+        "584c8d2d-0ead-4a06-8c2c-646c26ea0148": {
+          "id": "584c8d2d-0ead-4a06-8c2c-646c26ea0148",
+          "name": "Wonder_NYC.png_tr",
+          "eventId": "096db11f-1a69-4321-83c4-b340d95613e4",
+          "targetMediaStateId": "8903ab13-6215-4e56-a676-79939bd054ee",
+          "type": "No effect",
+          "duration": 0
+        },
+        "a329fe9d-e34f-465f-96b5-5ae90218a8f1": {
+          "id": "a329fe9d-e34f-465f-96b5-5ae90218a8f1",
+          "name": "AirProtein_NYC.png_tr",
+          "eventId": "71c32a2b-f3e6-4944-b60c-8232af739b41",
+          "targetMediaStateId": "a3f00d8d-6199-4f6f-bca6-891622e4f9d4",
+          "type": "No effect",
+          "duration": 0
+        },
+        "094d4742-a624-42bb-9a6b-6fe120b5a385": {
+          "id": "094d4742-a624-42bb-9a6b-6fe120b5a385",
+          "name": "Anchor_NYC.png_tr",
+          "eventId": "2b9704a0-d374-40e6-93bd-9e3e82fa6cac",
+          "targetMediaStateId": "5857e48d-73f8-4d8b-9bde-a9e7b3aea701",
+          "type": "No effect",
+          "duration": 0
+        },
+        "80a3ae49-a4e0-4e6b-af5c-1c40a0eb675e": {
+          "id": "80a3ae49-a4e0-4e6b-af5c-1c40a0eb675e",
+          "name": "Bowery_NYC.png_tr",
+          "eventId": "2cf3c9bf-620e-4185-a967-09b77437918d",
+          "targetMediaStateId": "84a01f4a-3a76-4abc-a6e4-6cbf60468fed",
+          "type": "No effect",
+          "duration": 0
+        },
+        "c28ae849-0fae-459a-96cb-5e3eb612cdf0": {
+          "id": "c28ae849-0fae-459a-96cb-5e3eb612cdf0",
+          "name": "Brightline_NYC.png_tr",
+          "eventId": "111d99d4-cc1d-4ecf-9d84-7b9b27526ee8",
+          "targetMediaStateId": "17233df4-47dc-4572-8cb2-a66d7ab85c37",
+          "type": "No effect",
+          "duration": 0
+        },
+        "09d7f627-aef0-4682-b067-ed80a34aa177": {
+          "id": "09d7f627-aef0-4682-b067-ed80a34aa177",
+          "name": "Dapper_NYC.png_tr",
+          "eventId": "d19f76d3-8476-4f39-9321-75fcacf5758e",
+          "targetMediaStateId": "85743e9b-0910-4608-8314-4a9f6cadab7f",
+          "type": "No effect",
+          "duration": 0
+        },
+        "c2eb972a-c6c8-4d42-b48d-2843198ed878": {
+          "id": "c2eb972a-c6c8-4d42-b48d-2843198ed878",
+          "name": "GitLab_NYC.png_tr",
+          "eventId": "18c5e2f1-4ee7-4e84-a724-6788a897cb1e",
+          "targetMediaStateId": "95fe0278-1044-45fe-95ba-11c593749aeb",
+          "type": "No effect",
+          "duration": 0
+        },
+        "eceaf68f-fa26-486a-8f98-a07c5f3783cf": {
+          "id": "eceaf68f-fa26-486a-8f98-a07c5f3783cf",
+          "name": "ROME_NYC.png_tr",
+          "eventId": "f0d2cc25-8bf5-4733-b006-2802f2449416",
+          "targetMediaStateId": "41691b76-0d5c-47a0-bd54-d385dfc3b7c9",
+          "type": "No effect",
+          "duration": 0
+        },
+        "e476d11b-3ce7-4f6f-9747-afe143cb97a0": {
+          "id": "e476d11b-3ce7-4f6f-9747-afe143cb97a0",
+          "name": "Stripe_NYC.png_tr",
+          "eventId": "55d00a9c-1b28-4509-b9d5-d7141858ed43",
+          "targetMediaStateId": "e2fbbc8b-9ed6-45bf-93a7-efa2e56b875a",
+          "type": "No effect",
+          "duration": 0
+        },
+        "78cda103-a18a-4836-95b4-980ee7ee4828": {
+          "id": "78cda103-a18a-4836-95b4-980ee7ee4828",
+          "name": "Verve_NYC.png_tr",
+          "eventId": "9b18927d-cb80-4bff-ac61-923795abe479",
+          "targetMediaStateId": "08cd6ad3-007e-4330-8a0e-68cdf15b1ef7",
+          "type": "No effect",
+          "duration": 0
+        },
+        "248e6f0c-9603-449f-b3d2-d92372cd2c4b": {
+          "id": "248e6f0c-9603-449f-b3d2-d92372cd2c4b",
+          "name": "Wonder_NYC.png_tr",
+          "eventId": "bc5da7da-ac8e-471d-acfb-0604c13eedf3",
+          "targetMediaStateId": "f4b09804-f45a-40f3-a245-5d51c6693bf2",
+          "type": "No effect",
+          "duration": 0
+        }
+      },
+      "sequencesByEventId": {}
+    },
+    "commands": {
+      "commandsById": {},
+      "sequencesById": {}
+    },
+    "htmlSites": {},
+    "nodeApps": {},
+    "dataFeeds": {
+      "feedsById": {},
+      "sourcesById": {}
+    },
+    "userVariables": {
+      "variablesById": {},
+      "sequence": []
+    },
+    "liveText": {
+      "itemsById": {},
+      "layersByCanvasId": {},
+      "dataFeedsByGroupId": {},
+      "canvasesById": {}
+    },
+    "deviceWebPages": {},
+    "scriptPlugins": {},
+    "parserPlugins": {},
+    "videoModePlugins": {},
+    "auxiliaryFiles": {},
+    "linkedPresentations": {},
+    "partnerProducts": {},
+    "customAutorun": "0",
+    "assetMap": {
+      "5602df30-409b-4744-95af-8d26dd0d4f56": {
+        "id": "5602df30-409b-4744-95af-8d26dd0d4f56",
+        "name": "AirProtein_NYC.png",
+        "path": "/Users/ghancock/Downloads/GV Brand Assets 2022/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "21b804ec62e88ac1",
+        "locator": "file:///Users/ghancock/Downloads/GV Brand Assets 2022/AirProtein_NYC.png",
+        "mediaType": "Image",
+        "fileSize": 6324187,
+        "lastModifiedDate": "2022-11-29T18:44:12.000Z",
+        "refCount": 4
+      },
+      "18c93c59-029e-4ce7-86f0-d087edd3cc67": {
+        "id": "18c93c59-029e-4ce7-86f0-d087edd3cc67",
+        "name": "Anchor_NYC.png",
+        "path": "/Users/ghancock/Downloads/GV Brand Assets 2022/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "21b804ec62e88ac1",
+        "locator": "file:///Users/ghancock/Downloads/GV Brand Assets 2022/Anchor_NYC.png",
+        "mediaType": "Image",
+        "fileSize": 7064330,
+        "lastModifiedDate": "2022-11-29T18:44:12.000Z",
+        "refCount": 4
+      },
+      "25d428e7-22f4-42f6-aa81-35581210f6c0": {
+        "id": "25d428e7-22f4-42f6-aa81-35581210f6c0",
+        "name": "Bowery_NYC.png",
+        "path": "/Users/ghancock/Downloads/GV Brand Assets 2022/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "21b804ec62e88ac1",
+        "locator": "file:///Users/ghancock/Downloads/GV Brand Assets 2022/Bowery_NYC.png",
+        "mediaType": "Image",
+        "fileSize": 8010959,
+        "lastModifiedDate": "2022-11-29T18:44:12.000Z",
+        "refCount": 4
+      },
+      "895079fa-00b6-49de-b070-e2d4353a361d": {
+        "id": "895079fa-00b6-49de-b070-e2d4353a361d",
+        "name": "Brightline_NYC.png",
+        "path": "/Users/ghancock/Downloads/GV Brand Assets 2022/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "21b804ec62e88ac1",
+        "locator": "file:///Users/ghancock/Downloads/GV Brand Assets 2022/Brightline_NYC.png",
+        "mediaType": "Image",
+        "fileSize": 4374155,
+        "lastModifiedDate": "2022-11-29T18:45:12.093Z",
+        "refCount": 4
+      },
+      "469ec8e1-3009-4126-bae5-6472f5c9433c": {
+        "id": "469ec8e1-3009-4126-bae5-6472f5c9433c",
+        "name": "Dapper_NYC.png",
+        "path": "/Users/ghancock/Downloads/GV Brand Assets 2022/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "21b804ec62e88ac1",
+        "locator": "file:///Users/ghancock/Downloads/GV Brand Assets 2022/Dapper_NYC.png",
+        "mediaType": "Image",
+        "fileSize": 857599,
+        "lastModifiedDate": "2022-11-29T18:44:12.000Z",
+        "refCount": 4
+      },
+      "de6b609e-d2c8-4ba7-8440-dfa46248c43f": {
+        "id": "de6b609e-d2c8-4ba7-8440-dfa46248c43f",
+        "name": "GitLab_NYC.png",
+        "path": "/Users/ghancock/Downloads/GV Brand Assets 2022/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "21b804ec62e88ac1",
+        "locator": "file:///Users/ghancock/Downloads/GV Brand Assets 2022/GitLab_NYC.png",
+        "mediaType": "Image",
+        "fileSize": 4499005,
+        "lastModifiedDate": "2022-11-29T18:46:30.324Z",
+        "refCount": 4
+      },
+      "30bfc664-d69e-4990-af48-150a5bbea2da": {
+        "id": "30bfc664-d69e-4990-af48-150a5bbea2da",
+        "name": "ROME_NYC.png",
+        "path": "/Users/ghancock/Downloads/GV Brand Assets 2022/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "21b804ec62e88ac1",
+        "locator": "file:///Users/ghancock/Downloads/GV Brand Assets 2022/ROME_NYC.png",
+        "mediaType": "Image",
+        "fileSize": 8407530,
+        "lastModifiedDate": "2022-11-29T18:44:12.000Z",
+        "refCount": 4
+      },
+      "a41a9512-04cc-4004-b870-2bc8ea632d7d": {
+        "id": "a41a9512-04cc-4004-b870-2bc8ea632d7d",
+        "name": "Stripe_NYC.png",
+        "path": "/Users/ghancock/Downloads/GV Brand Assets 2022/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "21b804ec62e88ac1",
+        "locator": "file:///Users/ghancock/Downloads/GV Brand Assets 2022/Stripe_NYC.png",
+        "mediaType": "Image",
+        "fileSize": 1855243,
+        "lastModifiedDate": "2022-11-29T18:44:12.000Z",
+        "refCount": 4
+      },
+      "d89475d2-c1f4-44dd-a9fa-5de660a95035": {
+        "id": "d89475d2-c1f4-44dd-a9fa-5de660a95035",
+        "name": "Verve_NYC.png",
+        "path": "/Users/ghancock/Downloads/GV Brand Assets 2022/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "21b804ec62e88ac1",
+        "locator": "file:///Users/ghancock/Downloads/GV Brand Assets 2022/Verve_NYC.png",
+        "mediaType": "Image",
+        "fileSize": 7967429,
+        "lastModifiedDate": "2022-11-29T18:44:12.000Z",
+        "refCount": 4
+      },
+      "728a69d7-052b-4e20-b653-c6f8ccda8879": {
+        "id": "728a69d7-052b-4e20-b653-c6f8ccda8879",
+        "name": "Wonder_NYC.png",
+        "path": "/Users/ghancock/Downloads/GV Brand Assets 2022/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "21b804ec62e88ac1",
+        "locator": "file:///Users/ghancock/Downloads/GV Brand Assets 2022/Wonder_NYC.png",
+        "mediaType": "Image",
+        "fileSize": 10398267,
+        "lastModifiedDate": "2022-11-29T18:44:12.000Z",
+        "refCount": 4
+      },
+      "3c12540b-6e20-426a-aeba-6b73cda3b306": {
+        "id": "3c12540b-6e20-426a-aeba-6b73cda3b306",
+        "name": "GV-NYC-04.png",
+        "path": "/Users/ghancock/Downloads/GV Brand Assets 2022 (1)/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "21b804ec62e88ac1",
+        "locator": "file:///Users/ghancock/Downloads/GV Brand Assets 2022 (1)/GV-NYC-04.png",
+        "mediaType": "Image",
+        "fileSize": 62223,
+        "lastModifiedDate": "2022-11-29T19:01:58.000Z",
+        "refCount": 1
+      },
+      "49323a4c-2e78-4af1-86db-7aed7a99d997": {
+        "id": "49323a4c-2e78-4af1-86db-7aed7a99d997",
+        "name": "GV-NYC-03.png",
+        "path": "/Users/ghancock/Downloads/GV Brand Assets 2022 (1)/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "21b804ec62e88ac1",
+        "locator": "file:///Users/ghancock/Downloads/GV Brand Assets 2022 (1)/GV-NYC-03.png",
+        "mediaType": "Image",
+        "fileSize": 61759,
+        "lastModifiedDate": "2022-11-29T19:01:58.000Z",
+        "refCount": 1
+      },
+      "1818c6a2-d5f3-4824-af9f-ddad6319f6a9": {
+        "id": "1818c6a2-d5f3-4824-af9f-ddad6319f6a9",
+        "name": "GV-NYC-02.png",
+        "path": "/Users/ghancock/Downloads/GV Brand Assets 2022 (1)/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "21b804ec62e88ac1",
+        "locator": "file:///Users/ghancock/Downloads/GV Brand Assets 2022 (1)/GV-NYC-02.png",
+        "mediaType": "Image",
+        "fileSize": 61991,
+        "lastModifiedDate": "2022-11-29T19:01:58.000Z",
+        "refCount": 1
+      },
+      "0c69428c-257e-4944-903e-b4ac934613c7": {
+        "id": "0c69428c-257e-4944-903e-b4ac934613c7",
+        "name": "GV-NYC-01.png",
+        "path": "/Users/ghancock/Downloads/GV Brand Assets 2022 (1)/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "21b804ec62e88ac1",
+        "locator": "file:///Users/ghancock/Downloads/GV Brand Assets 2022 (1)/GV-NYC-01.png",
+        "mediaType": "Image",
+        "fileSize": 62336,
+        "lastModifiedDate": "2022-11-29T19:01:58.000Z",
+        "refCount": 1
+      }
+    },
+    "thumbnail": {
+      "type": "image/jpeg",
+      "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCABwAMgDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAgG/8QAKRABAAECAwcDBQAAAAAAAAAAAPAWKQhJVgECAwQFBhUYIiNBVFVhc//EABkBAQEBAQEBAAAAAAAAAAAAAAAEAwUGAv/EACoRAQAAAwYEBwEBAAAAAAAAAAABAgMTFGFikuIFERJzBCFBQkPBwjJR/9oADAMBAAIRAxEAPwDW4csOWDT0advYgsQXZv3fl+r+R6r+V43KcD4OU4v8dz2bn72/XaWaJVRk0TVSxnoqtWaE08008/8Ac0PKblCEIcsI/wCvmefoRzZolVFmiVUsYZXjPU17WdvgjmzRKqLNEqpYwXjPU17S3wRzZolVFmiVUsYLxnqa9pb4I5s0SqizRKqWMF4z1Ne0t8Ec2aJVRZolVLGC8Z6mvaW+CObNEqos0SqljBeM9TXtLfBHNmiVUWaJVSxgvGepr2lvgjmzRKqLNEqpYwXjPU17S3wRzZolVFmiVUsYLxnqa9pb4I5s0SqizRKqWMF4z1Ne0t8Ec2aJVRZolVLGC8Z6mvaW+COcRuHLBp6NO4cQWH3s37TxHV/I9V/K8HlOP8HN8X+2579z97PptDJomqh3eFxm6aks00ZumeMPOPOPKHJRAyaJqpYyOcmiaqWM4XiPf3J/ynr+gAlYAAAAAAAAAAAAAAAAAAAAI5yaJqoMmiaqHp+GfN3JvpfAyaJqpYyOcmiaqWM4XiPf3J/ynr+gAlYAAAAAAAAAAAAAAAAAAAAI5yaJqoMmiaqHp+GfN3JvpfAyaJqpYyOcmiaqWM4XiPf3J/ynr+gAlYAAAAAAAAAAAAAAAAAAAAI5yaJqoMmiaqHp+GfN3JvpfAyaJqpYyOcmiaqWM4XiPf3J/wAp6/oAJWAAAAAAAAAAAAAAAAAAAACOcmiaqDJomqh6fhnzdyb6XwMmiaqWMjnJomqljOF4j39yf8p6/oAJWAAAAAAAAAAAAAAAAAAAACOcmiaqDJomqh6fhnzdyb6XwMmiaqWMjnDliNwaejTt7D7iC7y+78v0jx3VfyvG5vgfPynC/jv+zf8A1t+uws0SqnHq0pozTyzST/3NHyl5wjCPLGH+M55OtYwjmzRKqLNEqpld8lTRuZ2GKxhHNmiVUWaJVRd8lTRuLDFYwjmzRKqLNEqou+Spo3FhisYRzZolVFmiVUXfJU0biwxWMI5s0SqizRKqLvkqaNxYYrGEc2aJVRZolVF3yVNG4sMVjCObNEqos0Sqi75KmjcWGKxhHNmiVUWaJVRd8lTRuLDFYwjmzRKqLNEqou+Spo3FhisYRzZolVFmiVUXfJU0biwxWMI5s0SqizRKqLvkqaNxYYmTRNVBiNxG4NPRp3Dh9w+95faeI6R47qv5Xg83x/n5vhf23/fv/rZ9Ng7vC4TdNSaaWMvVPGPnDlHlHkog/9k=",
+      "size": {
+        "width": 200,
+        "height": 112
+      },
+      "hash": "b8d3e5c4b3cedd96ac21c63c98fa88f9c21b952f"
+    }
+  },
+  "selection": {
+    "hovered": null,
+    "selectionContainer": {
+      "id": "532aad50-4381-41ec-85c3-3c9ebbdbd5da",
+      "type": "ZONE",
+      "selectableType": "ZONE"
+    },
+    "selectionEntities": {},
+    "prevSelectionEntities": {
+      "e4be190e-b265-44bb-b923-8138072c5e93": {
+        "id": "e4be190e-b265-44bb-b923-8138072c5e93",
+        "type": "Event",
+        "selectableType": "TRANSITION",
+        "selectableData": null
+      }
+    },
+    "isEventAdvancedEnabled": false,
+    "activeAssetMenuTab": "ASSETS"
+  },
+  "interactiveCanvas": {
+    "statePositionById": {},
+    "eventDataById": {},
+    "viewTransformByZoneId": {},
+    "isLoaderEnabled": false
+  },
+  "eventMenu": {
+    "isOpen": true,
+    "showTitles": true
+  },
+  "liveText": {}
+}

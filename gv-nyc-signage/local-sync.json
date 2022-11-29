@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "client": {
+      "lastModifiedTime": "2022-11-29T19:21:55.143",
+      "enableSerialDebugging": false,
+      "enableSystemLogDebugging": false,
+      "publishedDataSizeLimitMB": 0,
+      "dynamicDataSizeLimitMB": 0,
+      "htmlDataSizeLimitMB": 0,
+      "htmlLocalStorageSizeLimitMB": 0,
+      "htmlIndexedDBSizeLimitMB": 0,
+      "publishedDataSizeLimitPercentage": 0,
+      "dynamicDataSizeLimitPercentage": 0,
+      "htmlDataSizeLimitPercentage": 0,
+      "htmlLocalStorageSizeLimitPercentage": 0,
+      "htmlIndexedDBSizeLimitPercentage": 0,
+      "limitStorageSpace": false,
+      "playbackLoggingEnabled": true,
+      "eventLoggingEnabled": false,
+      "diagnosticLoggingEnabled": false,
+      "stateLoggingEnabled": false,
+      "variableLoggingEnabled": false,
+      "uploadLogFilesAtBoot": false,
+      "uploadLogFilesAtSpecificTime": false,
+      "uploadLogFilesTime": 0
+    },
+    "server": {}
+  },
+  "files": {
+    "download": [
+      {
+        "name": "autoplay-GV NYC Hero Slides.json",
+        "hash": {
+          "method": "SHA1",
+          "hex": "edc64cb38ec1f6f567fd7370b36efec6ba69090e"
+        },
+        "size": 70516,
+        "link": "pool/0/e/sha1-edc64cb38ec1f6f567fd7370b36efec6ba69090e"
+      },
+      {
+        "name": "GV NYC Hero Slides.bml",
+        "hash": {
+          "method": "SHA1",
+          "hex": "e4250b5f529e4782a178d966fe012c0d0b7be330"
+        },
+        "size": 84305,
+        "link": "pool/3/0/sha1-e4250b5f529e4782a178d966fe012c0d0b7be330"
+      },
+      {
+        "name": "AirProtein_NYC.png",
+        "hash": {
+          "method": "SHA1",
+          "hex": "4a897bfb0f197888efb46f090abf9a2e2ac1a925"
+        },
+        "size": 6324187,
+        "link": "pool/2/5/sha1-4a897bfb0f197888efb46f090abf9a2e2ac1a925"
+      },
+      {
+        "name": "Anchor_NYC.png",
+        "hash": {
+          "method": "SHA1",
+          "hex": "297f5db50d17728ec3f3aab34a347612f7593aab"
+        },
+        "size": 7064330,
+        "link": "pool/a/b/sha1-297f5db50d17728ec3f3aab34a347612f7593aab"
+      },
+      {
+        "name": "Bowery_NYC.png",
+        "hash": {
+          "method": "SHA1",
+          "hex": "4e01f8b1e11515241297ae9f4ce5a3e035a87efc"
+        },
+        "size": 8010959,
+        "link": "pool/f/c/sha1-4e01f8b1e11515241297ae9f4ce5a3e035a87efc"
+      },
+      {
+        "name": "Brightline_NYC.png",
+        "hash": {
+          "method": "SHA1",
+          "hex": "6b06c9109f6bc1d5e82ad5a60fe8d7f1d6ac9e46"
+        },
+        "size": 4374155,
+        "link": "pool/4/6/sha1-6b06c9109f6bc1d5e82ad5a60fe8d7f1d6ac9e46"
+      },
+      {
+        "name": "Dapper_NYC.png",
+        "hash": {
+          "method": "SHA1",
+          "hex": "a4e0a6c8830d68c444bd1acdbaeceab3f6d8189b"
+        },
+        "size": 857599,
+        "link": "pool/9/b/sha1-a4e0a6c8830d68c444bd1acdbaeceab3f6d8189b"
+      },
+      {
+        "name": "GitLab_NYC.png",
+        "hash": {
+          "method": "SHA1",
+          "hex": "b0745eb378f19562dd353d2edfe9af0938164256"
+        },
+        "size": 4499005,
+        "link": "pool/5/6/sha1-b0745eb378f19562dd353d2edfe9af0938164256"
+      },
+      {
+        "name": "ROME_NYC.png",
+        "hash": {
+          "method": "SHA1",
+          "hex": "d5cd831af2da2d23f25635fe4d39e6711523feb8"
+        },
+        "size": 8407530,
+        "link": "pool/b/8/sha1-d5cd831af2da2d23f25635fe4d39e6711523feb8"
+      },
+      {
+        "name": "Stripe_NYC.png",
+        "hash": {
+          "method": "SHA1",
+          "hex": "0073f64274c7043b75822c7617c0c3053d2727f6"
+        },
+        "size": 1855243,
+        "link": "pool/f/6/sha1-0073f64274c7043b75822c7617c0c3053d2727f6"
+      },
+      {
+        "name": "Verve_NYC.png",
+        "hash": {
+          "method": "SHA1",
+          "hex": "52ac46156f5bb04ba26e9d7256280064da5fee4e"
+        },
+        "size": 7967429,
+        "link": "pool/4/e/sha1-52ac46156f5bb04ba26e9d7256280064da5fee4e"
+      },
+      {
+        "name": "Wonder_NYC.png",
+        "hash": {
+          "method": "SHA1",
+          "hex": "3c926a7e8156852c1816150c73001961b52e14d3"
+        },
+        "size": 10398267,
+        "link": "pool/d/3/sha1-3c926a7e8156852c1816150c73001961b52e14d3"
+      },
+      {
+        "name": "GV-NYC-04.png",
+        "hash": {
+          "method": "SHA1",
+          "hex": "17a16a978c2cf4662d08e535852bdb1f89a00607"
+        },
+        "size": 62223,
+        "link": "pool/0/7/sha1-17a16a978c2cf4662d08e535852bdb1f89a00607"
+      },
+      {
+        "name": "GV-NYC-03.png",
+        "hash": {
+          "method": "SHA1",
+          "hex": "8bcf9877c97afb302af7a8fbe24c0d48caec499c"
+        },
+        "size": 61759,
+        "link": "pool/9/c/sha1-8bcf9877c97afb302af7a8fbe24c0d48caec499c"
+      },
+      {
+        "name": "GV-NYC-02.png",
+        "hash": {
+          "method": "SHA1",
+          "hex": "f8642517882221441f6f1632c6910700a2e73f3b"
+        },
+        "size": 61991,
+        "link": "pool/3/b/sha1-f8642517882221441f6f1632c6910700a2e73f3b"
+      },
+      {
+        "name": "GV-NYC-01.png",
+        "hash": {
+          "method": "SHA1",
+          "hex": "49e2afdc810bf3377bb9fe127b1312f3df08fb4c"
+        },
+        "size": 62336,
+        "link": "pool/4/c/sha1-49e2afdc810bf3377bb9fe127b1312f3df08fb4c"
+      },
+      {
+        "name": "autoplugins.brs",
+        "hash": {
+          "method": "SHA1",
+          "hex": "4757dc2a65c88a30f08d9ae0d7722998f0510bb8"
+        },
+        "size": 142,
+        "link": "pool/b/8/sha1-4757dc2a65c88a30f08d9ae0d7722998f0510bb8",
+        "group": "script"
+      },
+      {
+        "name": "autorun.brs",
+        "hash": {
+          "method": "SHA1",
+          "hex": "1cfdc12ba07f9dd211e315a90f7e472047c29030"
+        },
+        "size": 1100522,
+        "link": "pool/3/0/sha1-1cfdc12ba07f9dd211e315a90f7e472047c29030",
+        "group": "script"
+      },
+      {
+        "name": "autoschedule.json",
+        "hash": {
+          "method": "SHA1",
+          "hex": "083d10dad9fee99071f4abec329a11505e9f0ccf"
+        },
+        "size": 930,
+        "link": "pool/c/f/sha1-083d10dad9fee99071f4abec329a11505e9f0ccf"
+      },
+      {
+        "name": "featureMinRevs.json",
+        "hash": {
+          "method": "SHA1",
+          "hex": "8a42b35c36bfe808b93264a7d979276b82c6194a"
+        },
+        "size": 77,
+        "link": "pool/4/a/sha1-8a42b35c36bfe808b93264a7d979276b82c6194a"
+      },
+      {
+        "name": "PartnerProducts.json",
+        "hash": {
+          "method": "SHA1",
+          "hex": "07d3764e1867e17d248d5dc0b5888cad5651dcdc"
+        },
+        "size": 63,
+        "link": "pool/d/c/sha1-07d3764e1867e17d248d5dc0b5888cad5651dcdc"
+      },
+      {
+        "name": "Default_PresentationWebPage/_deviceWebPage.html",
+        "hash": {
+          "method": "SHA1",
+          "hex": "f84cf1a0d4351bdc4c2072ebe8c21b1550da9962"
+        },
+        "size": 116305,
+        "link": "pool/6/2/sha1-f84cf1a0d4351bdc4c2072ebe8c21b1550da9962"
+      }
+    ],
+    "ignore": [
+      {
+        "pattern": "*"
+      }
+    ],
+    "delete": [
+      {
+        "pattern": "*.brs"
+      },
+      {
+        "pattern": "*.rok"
+      },
+      {
+        "pattern": "*.bsfw"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2143 @@
+{
+  "BrightAuthor": {
+    "version": 1,
+    "BrightAuthorConnectedVersion": "v1.7.10",
+    "type": "publish",
+    "meta": {
+      "id": "66a78197-a0fe-4878-ac2a-75d196e45aac",
+      "version": "1.2.6",
+      "name": "GV NYC Hero Slides",
+      "videoMode": "3840x2160x60p",
+      "model": "XT1144",
+      "monitorOrientation": "Landscape",
+      "monitorOverscan": "NoOverscan",
+      "videoConnector": "HDMI",
+      "deviceWebPageDisplay": "Standard",
+      "backgroundScreenColor": {
+        "a": 0,
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      "forceResolution": false,
+      "tenBitColorEnabled": false,
+      "dolbyVisionEnabled": false,
+      "fullResGraphicsEnabled": false,
+      "audioConfiguration": "MixedAudioPCMOnly",
+      "audioAutoLevel": false,
+      "htmlEnableJavascriptConsole": false,
+      "alphabetizeVariableNames": false,
+      "autoCreateMediaCounterVariables": false,
+      "resetVariablesOnPresentationStart": false,
+      "networkedVariablesUpdateInterval": 300,
+      "delayScheduleChangeUntilMediaEndEvent": false,
+      "language": "English",
+      "languageKey": "eng",
+      "flipCoordinates": false,
+      "inactivityTimeout": false,
+      "inactivityTime": 30,
+      "touchCursorDisplayMode": "Auto",
+      "udpDestinationAddressType": "IPAddress",
+      "udpDestinationAddress": "255.255.255.255",
+      "udpDestinationPort": 5000,
+      "udpReceiverPort": 5000,
+      "disableSettingsHandler": false,
+      "serialPortConfigurations": [
+        {
+          "port": "0",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "1",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "2",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "3",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "4",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "5",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "6",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "7",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        }
+      ],
+      "gpio": [
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input"
+      ],
+      "buttonPanels": {
+        "bp900a": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900b": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900c": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900d": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200a": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200b": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200c": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200d": {
+          "configureAutomatically": true,
+          "configuration": 0
+        }
+      },
+      "irRemote": {
+        "irInConfiguration": {
+          "source": "Ir-in"
+        },
+        "irOutConfiguration": {
+          "destination": "Iguana"
+        },
+        "irRemoteControl": {
+          "id": "RC-1002",
+          "encoding": "NEC",
+          "manufacturerCode": 28560,
+          "buttons": {
+            "0": {
+              "buttonCode": 0,
+              "buttonDescription": "Option"
+            },
+            "1": {
+              "buttonCode": 1,
+              "buttonDescription": "1"
+            },
+            "2": {
+              "buttonCode": 2,
+              "buttonDescription": "2"
+            },
+            "3": {
+              "buttonCode": 3,
+              "buttonDescription": "3"
+            },
+            "4": {
+              "buttonCode": 4,
+              "buttonDescription": "4"
+            },
+            "5": {
+              "buttonCode": 5,
+              "buttonDescription": "5"
+            },
+            "6": {
+              "buttonCode": 6,
+              "buttonDescription": "6"
+            },
+            "7": {
+              "buttonCode": 7,
+              "buttonDescription": "7"
+            },
+            "8": {
+              "buttonCode": 8,
+              "buttonDescription": "8"
+            },
+            "9": {
+              "buttonCode": 9,
+              "buttonDescription": "9"
+            },
+            "10": {
+              "buttonCode": 10,
+              "buttonDescription": "Exit"
+            },
+            "11": {
+              "buttonCode": 11,
+              "buttonDescription": "Channel Up"
+            },
+            "12": {
+              "buttonCode": 12,
+              "buttonDescription": "Period \".\""
+            },
+            "13": {
+              "buttonCode": 13,
+              "buttonDescription": "Channel Down"
+            },
+            "14": {
+              "buttonCode": 14,
+              "buttonDescription": "Source"
+            },
+            "15": {
+              "buttonCode": 15,
+              "buttonDescription": "Mute"
+            },
+            "16": {
+              "buttonCode": 16,
+              "buttonDescription": "Left"
+            },
+            "17": {
+              "buttonCode": 17,
+              "buttonDescription": "Right"
+            },
+            "18": {
+              "buttonCode": 18,
+              "buttonDescription": "Up"
+            },
+            "19": {
+              "buttonCode": 19,
+              "buttonDescription": "Down"
+            },
+            "20": {
+              "buttonCode": 20,
+              "buttonDescription": "Ok"
+            },
+            "21": {
+              "buttonCode": 21,
+              "buttonDescription": "Back"
+            },
+            "22": {
+              "buttonCode": 22,
+              "buttonDescription": "Power"
+            },
+            "23": {
+              "buttonCode": 23,
+              "buttonDescription": "Home"
+            },
+            "24": {
+              "buttonCode": 24,
+              "buttonDescription": "Search"
+            },
+            "25": {
+              "buttonCode": 25,
+              "buttonDescription": "Play"
+            },
+            "26": {
+              "buttonCode": 26,
+              "buttonDescription": "Fast Forward"
+            },
+            "27": {
+              "buttonCode": 27,
+              "buttonDescription": "Rewind"
+            },
+            "28": {
+              "buttonCode": 28,
+              "buttonDescription": "Pause"
+            },
+            "29": {
+              "buttonCode": 29,
+              "buttonDescription": "Add"
+            },
+            "30": {
+              "buttonCode": 30,
+              "buttonDescription": "Shuffle"
+            },
+            "31": {
+              "buttonCode": 31,
+              "buttonDescription": "Repeat"
+            },
+            "64": {
+              "buttonCode": 64,
+              "buttonDescription": "Volume Up"
+            },
+            "65": {
+              "buttonCode": 65,
+              "buttonDescription": "Volume Down"
+            },
+            "66": {
+              "buttonCode": 66,
+              "buttonDescription": "Brightness"
+            },
+            "67": {
+              "buttonCode": 67,
+              "buttonDescription": "Info"
+            },
+            "68": {
+              "buttonCode": 68,
+              "buttonDescription": "Green"
+            },
+            "69": {
+              "buttonCode": 69,
+              "buttonDescription": "0"
+            },
+            "70": {
+              "buttonCode": 70,
+              "buttonDescription": "Stop"
+            },
+            "71": {
+              "buttonCode": 71,
+              "buttonDescription": "Last"
+            },
+            "83": {
+              "buttonCode": 83,
+              "buttonDescription": "Red"
+            },
+            "84": {
+              "buttonCode": 84,
+              "buttonDescription": "Blue"
+            },
+            "87": {
+              "buttonCode": 87,
+              "buttonDescription": "Yellow"
+            }
+          }
+        }
+      },
+      "audioSignPropertyMap": {
+        "analog1": {
+          "min": 0,
+          "max": 100
+        },
+        "analog2": {
+          "min": 0,
+          "max": 100
+        },
+        "analog3": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi": {
+          "min": 0,
+          "max": 100
+        },
+        "spdif": {
+          "min": 0,
+          "max": 100
+        },
+        "usbA": {
+          "min": 0,
+          "max": 100
+        },
+        "usbB": {
+          "min": 0,
+          "max": 100
+        },
+        "usbC": {
+          "min": 0,
+          "max": 100
+        },
+        "usbD": {
+          "min": 0,
+          "max": 100
+        },
+        "usbTypeA": {
+          "min": 0,
+          "max": 100
+        },
+        "usbTypeC": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_1": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_2": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_3": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_4": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_5": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_6": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_7": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_1": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_2": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_3": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_4": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_5": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_6": {
+          "min": 0,
+          "max": 100
+        }
+      },
+      "enableEnhancedSynchronization": null,
+      "dataFeedSources": [],
+      "customDeviceWebPage": null,
+      "userVariables": [],
+      "userDefinedEvents": [],
+      "scriptPlugins": [],
+      "parserPlugins": [],
+      "videoModePlugins": [],
+      "auxiliaryFiles": [],
+      "presentationIdentifiers": [],
+      "beacons": [],
+      "partnerProducts": [],
+      "irRemoteControl": {
+        "id": "RC-1002",
+        "encoding": "NEC",
+        "manufacturerCode": 28560,
+        "buttons": {
+          "0": {
+            "buttonCode": 0,
+            "buttonDescription": "Option"
+          },
+          "1": {
+            "buttonCode": 1,
+            "buttonDescription": "1"
+          },
+          "2": {
+            "buttonCode": 2,
+            "buttonDescription": "2"
+          },
+          "3": {
+            "buttonCode": 3,
+            "buttonDescription": "3"
+          },
+          "4": {
+            "buttonCode": 4,
+            "buttonDescription": "4"
+          },
+          "5": {
+            "buttonCode": 5,
+            "buttonDescription": "5"
+          },
+          "6": {
+            "buttonCode": 6,
+            "buttonDescription": "6"
+          },
+          "7": {
+            "buttonCode": 7,
+            "buttonDescription": "7"
+          },
+          "8": {
+            "buttonCode": 8,
+            "buttonDescription": "8"
+          },
+          "9": {
+            "buttonCode": 9,
+            "buttonDescription": "9"
+          },
+          "10": {
+            "buttonCode": 10,
+            "buttonDescription": "Exit"
+          },
+          "11": {
+            "buttonCode": 11,
+            "buttonDescription": "Channel Up"
+          },
+          "12": {
+            "buttonCode": 12,
+            "buttonDescription": "Period \".\""
+          },
+          "13": {
+            "buttonCode": 13,
+            "buttonDescription": "Channel Down"
+          },
+          "14": {
+            "buttonCode": 14,
+            "buttonDescription": "Source"
+          },
+          "15": {
+            "buttonCode": 15,
+            "buttonDescription": "Mute"
+          },
+          "16": {
+            "buttonCode": 16,
+            "buttonDescription": "Left"
+          },
+          "17": {
+            "buttonCode": 17,
+            "buttonDescription": "Right"
+          },
+          "18": {
+            "buttonCode": 18,
+            "buttonDescription": "Up"
+          },
+          "19": {
+            "buttonCode": 19,
+            "buttonDescription": "Down"
+          },
+          "20": {
+            "buttonCode": 20,
+            "buttonDescription": "Ok"
+          },
+          "21": {
+            "buttonCode": 21,
+            "buttonDescription": "Back"
+          },
+          "22": {
+            "buttonCode": 22,
+            "buttonDescription": "Power"
+          },
+          "23": {
+            "buttonCode": 23,
+            "buttonDescription": "Home"
+          },
+          "24": {
+            "buttonCode": 24,
+            "buttonDescription": "Search"
+          },
+          "25": {
+            "buttonCode": 25,
+            "buttonDescription": "Play"
+          },
+          "26": {
+            "buttonCode": 26,
+            "buttonDescription": "Fast Forward"
+          },
+          "27": {
+            "buttonCode": 27,
+            "buttonDescription": "Rewind"
+          },
+          "28": {
+            "buttonCode": 28,
+            "buttonDescription": "Pause"
+          },
+          "29": {
+            "buttonCode": 29,
+            "buttonDescription": "Add"
+          },
+          "30": {
+            "buttonCode": 30,
+            "buttonDescription": "Shuffle"
+          },
+          "31": {
+            "buttonCode": 31,
+            "buttonDescription": "Repeat"
+          },
+          "64": {
+            "buttonCode": 64,
+            "buttonDescription": "Volume Up"
+          },
+          "65": {
+            "buttonCode": 65,
+            "buttonDescription": "Volume Down"
+          },
+          "66": {
+            "buttonCode": 66,
+            "buttonDescription": "Brightness"
+          },
+          "67": {
+            "buttonCode": 67,
+            "buttonDescription": "Info"
+          },
+          "68": {
+            "buttonCode": 68,
+            "buttonDescription": "Green"
+          },
+          "69": {
+            "buttonCode": 69,
+            "buttonDescription": "0"
+          },
+          "70": {
+            "buttonCode": 70,
+            "buttonDescription": "Stop"
+          },
+          "71": {
+            "buttonCode": 71,
+            "buttonDescription": "Last"
+          },
+          "83": {
+            "buttonCode": 83,
+            "buttonDescription": "Red"
+          },
+          "84": {
+            "buttonCode": 84,
+            "buttonDescription": "Blue"
+          },
+          "87": {
+            "buttonCode": 87,
+            "buttonDescription": "Yellow"
+          }
+        }
+      },
+      "wssDeviceSpec": null,
+      "nodeApps": [],
+      "htmlSites": [],
+      "liveDataFeeds": [],
+      "graphicsZOrder": "Front"
+    },
+    "zones": [
+      {
+        "id": "VI1",
+        "name": "Zone 1",
+        "type": "VideoOrImages",
+        "absolutePosition": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "pct": false
+        },
+        "nonInteractive": true,
+        "initialMediaStateName": "",
+        "percentagePosition": {
+          "x": 0,
+          "y": 0,
+          "width": 50,
+          "height": 50,
+          "pct": true
+        },
+        "zoneSpecificParameters": {
+          "viewMode": "Scale to Fill",
+          "videoVolume": 100,
+          "zOrderFront": true,
+          "mosaic": false,
+          "maxContentResolution": "HD",
+          "audioOutput": "Analog",
+          "audioMode": "Stereo",
+          "audioMapping": "Audio1",
+          "audioMixMode": "Stereo",
+          "analogOutput": "Pcm",
+          "hdmiOutput": "Pcm",
+          "spdifOutput": "Pcm",
+          "usbOutputTypeA": "None",
+          "usbOutputTypeC": "None",
+          "usbOutput700_1": "None",
+          "usbOutput700_2": "None",
+          "usbOutput700_3": "None",
+          "usbOutput700_4": "None",
+          "usbOutput700_5": "None",
+          "usbOutput700_6": "None",
+          "usbOutput700_7": "None",
+          "usbOutput_1": "None",
+          "usbOutput_2": "None",
+          "usbOutput_3": "None",
+          "usbOutput_4": "None",
+          "usbOutput_5": "None",
+          "usbOutput_6": "None",
+          "audioVolume": 100,
+          "minimumVolume": 0,
+          "maximumVolume": 100,
+          "imageMode": "Scale to Fill"
+        },
+        "playlist": {
+          "name": "Playlist 0",
+          "type": "non-interactive",
+          "initialMediaStateName": "AirProtein_NYC.png",
+          "states": [
+            {
+              "imageItem": {
+                "stateName": "AirProtein_NYC.png",
+                "fileName": "AirProtein_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/AirProtein_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "AirProtein_NYC.png",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Anchor_NYC.png",
+                "fileName": "Anchor_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Anchor_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Anchor_NYC.png",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Bowery_NYC.png",
+                "fileName": "Bowery_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Bowery_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Bowery_NYC.png",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Brightline_NYC.png",
+                "fileName": "Brightline_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Brightline_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Brightline_NYC.png",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Dapper_NYC.png",
+                "fileName": "Dapper_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Dapper_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Dapper_NYC.png",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "GitLab_NYC.png",
+                "fileName": "GitLab_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/GitLab_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "GitLab_NYC.png",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "ROME_NYC.png",
+                "fileName": "ROME_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/ROME_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "ROME_NYC.png",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Stripe_NYC.png",
+                "fileName": "Stripe_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Stripe_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Stripe_NYC.png",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Verve_NYC.png",
+                "fileName": "Verve_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Verve_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Verve_NYC.png",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Wonder_NYC.png",
+                "fileName": "Wonder_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Wonder_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Wonder_NYC.png",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "GV-NYC-04.png",
+                "fileName": "GV-NYC-04.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022 (1)/GV-NYC-04.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 1000
+                },
+                "type": "image"
+              },
+              "name": "GV-NYC-04.png",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "AirProtein_NYC.png (1)",
+                "fileName": "AirProtein_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/AirProtein_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "AirProtein_NYC.png (1)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Anchor_NYC.png (1)",
+                "fileName": "Anchor_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Anchor_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Anchor_NYC.png (1)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Bowery_NYC.png (1)",
+                "fileName": "Bowery_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Bowery_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Bowery_NYC.png (1)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Brightline_NYC.png (1)",
+                "fileName": "Brightline_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Brightline_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Brightline_NYC.png (1)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Dapper_NYC.png (1)",
+                "fileName": "Dapper_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Dapper_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Dapper_NYC.png (1)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "GitLab_NYC.png (1)",
+                "fileName": "GitLab_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/GitLab_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "GitLab_NYC.png (1)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "ROME_NYC.png (1)",
+                "fileName": "ROME_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/ROME_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "ROME_NYC.png (1)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Stripe_NYC.png (1)",
+                "fileName": "Stripe_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Stripe_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Stripe_NYC.png (1)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Verve_NYC.png (1)",
+                "fileName": "Verve_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Verve_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Verve_NYC.png (1)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Wonder_NYC.png (1)",
+                "fileName": "Wonder_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Wonder_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Wonder_NYC.png (1)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "GV-NYC-03.png",
+                "fileName": "GV-NYC-03.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022 (1)/GV-NYC-03.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 1000
+                },
+                "type": "image"
+              },
+              "name": "GV-NYC-03.png",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "AirProtein_NYC.png (2)",
+                "fileName": "AirProtein_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/AirProtein_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "AirProtein_NYC.png (2)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Anchor_NYC.png (2)",
+                "fileName": "Anchor_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Anchor_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Anchor_NYC.png (2)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Bowery_NYC.png (2)",
+                "fileName": "Bowery_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Bowery_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Bowery_NYC.png (2)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Brightline_NYC.png (2)",
+                "fileName": "Brightline_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Brightline_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Brightline_NYC.png (2)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Dapper_NYC.png (2)",
+                "fileName": "Dapper_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Dapper_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Dapper_NYC.png (2)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "GitLab_NYC.png (2)",
+                "fileName": "GitLab_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/GitLab_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "GitLab_NYC.png (2)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "ROME_NYC.png (2)",
+                "fileName": "ROME_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/ROME_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "ROME_NYC.png (2)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Stripe_NYC.png (2)",
+                "fileName": "Stripe_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Stripe_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Stripe_NYC.png (2)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Verve_NYC.png (2)",
+                "fileName": "Verve_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Verve_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Verve_NYC.png (2)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Wonder_NYC.png (2)",
+                "fileName": "Wonder_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Wonder_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Wonder_NYC.png (2)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "GV-NYC-02.png",
+                "fileName": "GV-NYC-02.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022 (1)/GV-NYC-02.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 1000
+                },
+                "type": "image"
+              },
+              "name": "GV-NYC-02.png",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "AirProtein_NYC.png (3)",
+                "fileName": "AirProtein_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/AirProtein_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "AirProtein_NYC.png (3)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Anchor_NYC.png (3)",
+                "fileName": "Anchor_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Anchor_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Anchor_NYC.png (3)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Bowery_NYC.png (3)",
+                "fileName": "Bowery_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Bowery_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Bowery_NYC.png (3)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Brightline_NYC.png (3)",
+                "fileName": "Brightline_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Brightline_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Brightline_NYC.png (3)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Dapper_NYC.png (3)",
+                "fileName": "Dapper_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Dapper_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Dapper_NYC.png (3)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "GitLab_NYC.png (3)",
+                "fileName": "GitLab_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/GitLab_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "GitLab_NYC.png (3)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "ROME_NYC.png (3)",
+                "fileName": "ROME_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/ROME_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "ROME_NYC.png (3)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Stripe_NYC.png (3)",
+                "fileName": "Stripe_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Stripe_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Stripe_NYC.png (3)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Verve_NYC.png (3)",
+                "fileName": "Verve_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Verve_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Verve_NYC.png (3)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "Wonder_NYC.png (3)",
+                "fileName": "Wonder_NYC.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022/Wonder_NYC.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 500
+                },
+                "type": "image"
+              },
+              "name": "Wonder_NYC.png (3)",
+              "entryCommands": [],
+              "exitCommands": []
+            },
+            {
+              "imageItem": {
+                "stateName": "GV-NYC-01.png",
+                "fileName": "GV-NYC-01.png",
+                "filePath": "/Users/ghancock/Downloads/GV Brand Assets 2022 (1)/GV-NYC-01.png",
+                "transitionEffect": {
+                  "transitionType": "Image wipe from left",
+                  "transitionDuration": 1000
+                },
+                "type": "image"
+              },
+              "name": "GV-NYC-01.png",
+              "entryCommands": [],
+              "exitCommands": []
+            }
+          ],
+          "transitions": [
+            {
+              "sourceMediaState": "AirProtein_NYC.png",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Anchor_NYC.png",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Anchor_NYC.png",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Bowery_NYC.png",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Bowery_NYC.png",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Brightline_NYC.png",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Brightline_NYC.png",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Dapper_NYC.png",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Dapper_NYC.png",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "GitLab_NYC.png",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "GitLab_NYC.png",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "ROME_NYC.png",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "ROME_NYC.png",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Stripe_NYC.png",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Stripe_NYC.png",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Verve_NYC.png",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Verve_NYC.png",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Wonder_NYC.png",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Wonder_NYC.png",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "GV-NYC-04.png",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "GV-NYC-04.png",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 20
+                }
+              },
+              "targetMediaState": "AirProtein_NYC.png (1)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "GV-NYC-03.png",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 20
+                }
+              },
+              "targetMediaState": "AirProtein_NYC.png (2)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "GV-NYC-02.png",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 20
+                }
+              },
+              "targetMediaState": "AirProtein_NYC.png (3)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "GV-NYC-01.png",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 20
+                }
+              },
+              "targetMediaState": "AirProtein_NYC.png",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "AirProtein_NYC.png (1)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Anchor_NYC.png (1)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Anchor_NYC.png (1)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Bowery_NYC.png (1)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Bowery_NYC.png (1)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Brightline_NYC.png (1)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Brightline_NYC.png (1)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Dapper_NYC.png (1)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Dapper_NYC.png (1)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "GitLab_NYC.png (1)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "GitLab_NYC.png (1)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "ROME_NYC.png (1)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "ROME_NYC.png (1)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Stripe_NYC.png (1)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Stripe_NYC.png (1)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Verve_NYC.png (1)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Verve_NYC.png (1)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Wonder_NYC.png (1)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Wonder_NYC.png (1)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "GV-NYC-03.png",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "AirProtein_NYC.png (2)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Anchor_NYC.png (2)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Anchor_NYC.png (2)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Bowery_NYC.png (2)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Bowery_NYC.png (2)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Brightline_NYC.png (2)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Brightline_NYC.png (2)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Dapper_NYC.png (2)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Dapper_NYC.png (2)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "GitLab_NYC.png (2)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "GitLab_NYC.png (2)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "ROME_NYC.png (2)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "ROME_NYC.png (2)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Stripe_NYC.png (2)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Stripe_NYC.png (2)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Verve_NYC.png (2)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Verve_NYC.png (2)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Wonder_NYC.png (2)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Wonder_NYC.png (2)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "GV-NYC-02.png",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "AirProtein_NYC.png (3)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Anchor_NYC.png (3)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Anchor_NYC.png (3)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Bowery_NYC.png (3)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Bowery_NYC.png (3)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Brightline_NYC.png (3)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Brightline_NYC.png (3)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Dapper_NYC.png (3)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Dapper_NYC.png (3)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "GitLab_NYC.png (3)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "GitLab_NYC.png (3)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "ROME_NYC.png (3)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "ROME_NYC.png (3)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Stripe_NYC.png (3)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Stripe_NYC.png (3)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Verve_NYC.png (3)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Verve_NYC.png (3)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "Wonder_NYC.png (3)",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            },
+            {
+              "sourceMediaState": "Wonder_NYC.png (3)",
+              "userEvent": {
+                "name": "timeout",
+                "data": {
+                  "interval": 6
+                }
+              },
+              "targetMediaState": "GV-NYC-01.png",
+              "eventAction": "None",
+              "assignInputToUserVariable": false,
+              "assignWildcardToUserVariable": false,
+              "variableToAssignFromInput": null,
+              "variableToAssignFromWildcard": null,
+              "commands": [],
+              "conditionalTransitions": []
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

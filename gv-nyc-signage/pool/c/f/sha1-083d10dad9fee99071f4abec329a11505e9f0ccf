@@ -1,0 +1,30 @@
+{
+  "scheduledPresentations": [
+    {
+      "presentationToSchedule": {
+        "name": "GV NYC Hero Slides",
+        "fileName": "GV NYC Hero Slides.bpfx",
+        "filePath": "/Users/ghancock/Documents/BSN/GV NYC Hero Slides.bpfx"
+      },
+      "presentationLocator": {
+        "name": "GV NYC Hero Slides.bpfx",
+        "path": "/Users/ghancock/Documents/BSN/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Project",
+        "scope": "21b804ec62e88ac1"
+      },
+      "dateTime": "2022-11-29T00:00:00.000",
+      "duration": 1440,
+      "allDayEveryDay": true,
+      "recurrence": false,
+      "recurrencePattern": "daily",
+      "recurrencePatternDaily": "EveryDay",
+      "recurrencePatternDaysOfWeek": 127,
+      "recurrenceStartDate": "1970-01-01T00:00:00.000",
+      "recurrenceGoesForever": true,
+      "recurrenceEndDate": "2100-12-31T23:59:59.999",
+      "interruption": false
+    }
+  ]
+}
